@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p { 
+    color: violet;
+    border-top: 2px solid black;
+    font-size: 40px
+}
+
+div {
+    border-bottom: 3px solid red ;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div p {
+    color: red;  
+    font-family: 'Courier New', Courier, monospace;  
+    border-right: 5px solid blue;
+    width: 200px;
+}

@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.conteudo {background-color: skyblue;}
+
+/*Dimensionamento sol e nuvens*/
+.img-sol {width: 12.3vw;}
+.img-nuvem {width: 3vw;}
+
+/*Espacamento Nuvens
+Distancia tem de ser MARGIN!*/
+.img-nuvem-1 {padding-right: 600px;}
+.img-nuvem-2 {padding-right: 750px;}
+.img-nuvem-3 {padding-right: 500px;}
+.img-nuvem-4 {padding-right: 900px;}
+
+/*Dimensionamento e espacamento Arvores
+Distancia tem de ser MARGIN!*/
+.dist-arvore {padding-left: 0.4vw;}
+.img-arvore-1 {width: 5vw;}
+.img-arvore-2 {width: 8vw;}
+.img-arvore-3 {width: 10vw;}
+.img-arvore-4 {width: 12vw;}
+.img-arvore-5 {width: 16vw;}
+
+/*Dimensionamento Passaro-voar*/
+.passaro_voar {width: 1.94vw;}
+
+/*Dimensionamento e Espacamento gato*/
+.gato {
+    margin: 0px -1vw 0px -1vw;
+    width: 1.8vw;
+}
+
+/*Dimensionamento e Espacamento passaro_arvore*/
+.passaro_arvore {
+    margin: 0px -1vw 0px -1vw;
+    width: 1.8vw;
+}
+
+/*Solo e identificacao*/
+.rodape {
+    background-color: rgb(117, 53, 0);
+    color: white;
+    margin-top: -1.8vh;
+    padding: 4.8vh 0vh 0.75vh 0.4vw;
+}

@@ -1,0 +1,34 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.filho {
+    height: 200px;
+    width: 200px;
+    align-content: center;
+}
+
+#absolute, #fixed, #sticky {
+    background-image: radial-gradient(circle at top left, red, yellow);
+    border-radius: 20px;
+}
+
+#absolute {   
+    position: absolute;
+    top: 0px;    
+}
+
+#fixed {   
+    position: fixed;
+    top: 0px; 
+    right: 0px;   
+}
+
+#sticky {  
+    position: sticky;
+    margin: auto;
+    z-index: 1;
+    top: 20px;
+    bottom: 250px;    
+}

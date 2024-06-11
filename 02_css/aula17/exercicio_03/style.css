@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+div {
+    border: 2px solid black;
+    width: 300px;
+}
+
+.div1 {
+    background-color: red;
+    margin-bottom: 20px;
+
+}
+
+.div2 {
+    background-color: blue;
+    margin-bottom: 20px;
+    margin: auto;
+
+}
+
+.div3 {
+    width: auto;
+    background-color: orange;
+    margin-top: 20px;
+}
+
+.div4 {
+    background-color: blueviolet;
+    margin: -20px 30px;
+}

@@ -1,0 +1,141 @@
+* {box-sizing: border-box;}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 0px;
+    color: white;
+}
+
+a {
+    padding: 20px 40px; 
+    color: white;
+    text-decoration: none;   
+}
+
+.fundo-preto {
+    background-color: black;
+}
+.fundo-cinza {
+    background-color: rgb(125, 125, 125);
+}
+
+.font-head-footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.75rem;
+}
+
+/* *** HEADER *** */
+.top-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+/* *** BARRA NAVEGAÇÃO *** */
+#barra {
+    display: flex;
+    justify-content: center;    
+    height: 60px;  
+}
+
+.breve2 {   
+    display: none;
+    font-size: 10px;  
+    color: rgb(125, 125, 125);    
+}
+
+.breve1:hover .breve2 {
+    display: block;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+    transition-duration: 1s;
+}
+/* *** FIM BARRA NAVEGAÇÃO E HEADER *** */
+
+/* *** CONTEUDO *** */
+#conteudo {
+    background-color: rgb(125, 125, 125);
+    margin: 10px;
+    padding: 10px;   
+}
+
+#conteudo > div:nth-child(2) {
+    background-color: rgb(120, 0, 0);
+}
+
+/* *** MOUSE HOVER IMAGENS *** */
+#surpresas {
+    display: flex; 
+    flex-wrap: wrap;  
+    justify-content: center;  
+    gap: 10px;
+    padding: 20px 100px;         
+}
+
+.surpresa-hover {
+    width: 17%;
+    height: 250px;
+    border: 1px solid white;
+    padding: 30px;
+    font-size: 22px;
+}
+
+.surpresa-hover:hover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    transition-duration: 1s;
+}
+
+.surpresa-hover:hover ~ #desconto {
+    color: black;
+}
+/* *** FIM MOUSE HOVER IMAGENS *** */
+
+/* *** INFO DESCONTO *** */
+#desconto {
+    display: flex;    
+    width: 150px;
+    height: 20px;    
+    background-color: white;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center; 
+    padding: 20px 0px; 
+    margin-top: 10px;       
+}
+
+.info-desconto {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;  
+}
+/* *** FIM INFO DESCONTO *** */
+
+/* *** IMAGENS *** */
+.surpresa-1:hover {background-image: url('imagens/joia-2.jpg');}
+.surpresa-2:hover {background-image: url('imagens/joia-3.jpg');}
+.surpresa-3:hover {background-image: url('imagens/joia-4.webp');}
+.surpresa-4:hover {background-image: url('imagens/joia-5.avif');}
+.surpresa-5:hover {background-image: url('imagens/joia-6.webp');}
+/* *** FIM IMAGENS *** */
+
+.info p {
+    text-align: justify;
+}
+/* *** FIM CONTENT *** */
+
+/* *** FOOTER *** */
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;     
+    width: 100%;
+}
+/* *** FIM FOOTER *** */

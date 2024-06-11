@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: "Inter";
+    text-align: center;
+}
+
+div{
+    border: 3px solid black;
+    margin: 30px auto;
+    text-align: justify;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#grp1 {background-color: lightgreen;}
+#grp2 {background-color: lightskyblue;}
+#grp3 {background-color: lightcoral;}
+
+.div-1 {font-weight: 100;}
+.div-2 {font-weight: 200;}
+.div-3 {font-weight: 300;}
+.div-4 {font-weight: 400;}
+.div-5 {font-weight: 500;}
+.div-6 {font-weight: 600;}
+.div-7 {font-weight: 700;}
+.div-8 {font-weight: 800;}
+.div-9 {font-weight: 900;}
+
+.div-10 {font-style: normal;}
+.div-11 {font-style: italic;}
+.div-12 {font-style: oblique 14deg;}
+
+.div-13 {text-transform: none;}
+.div-14 {text-transform: lowercase;}
+.div-15 {text-transform: uppercase;}
+.div-16 {text-transform: capitalize;}

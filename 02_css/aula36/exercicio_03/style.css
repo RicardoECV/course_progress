@@ -1,0 +1,80 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.pai {
+    background-color: lightgreen;
+    width: 70%;
+    min-height: 300px;
+    margin: auto;
+    margin-bottom: 40px;
+    border: 2px solid black;
+    display: flex; 
+    justify-content: center;  
+}
+
+.filho {
+    background-color: coral;
+    border: 2px solid black; 
+    padding: 5px;
+    width: 75px;
+    height: 75px
+}
+
+#pai-1, #pai-6 {width: 300px;}
+/* Div 1 */
+#pai-1, #pai-2 {   
+    align-content: center; 
+    flex-wrap: wrap;
+}
+#pai-1 .filho-5 {
+    order: -1;
+    background-color: yellow;
+}
+#pai-1 .filho-1 {
+    order: 1;
+    background-color: red;
+}
+
+/* Div 2 */
+#pai-2, #pai-3, #pai-4, #pai-5, #pai-6 {width: unset;}
+
+#pai-2 .filho-5 {
+    flex-grow: 2;
+    background-color: yellow;
+}
+#pai-2 .filho-6 {
+    flex-grow: 1;
+    background-color: red;
+}
+
+/* Div 3 */
+#pai-3 .filho {width: 200px;}
+
+#pai-3 .filho-1 {flex-shrink: 0;}
+#pai-3 .filho-2{
+    flex-shrink: 1;
+    background-color: blueviolet;
+}
+#pai-3 .filho-3{
+    flex-shrink: 2;
+    background-color: yellow;
+}
+#pai-3 .filho-4{
+    flex-shrink: 3;
+    background-color: green;
+}
+#pai-3 .filho-5{
+    flex-shrink: 4;
+    background-color: orange;
+}
+
+/* Div 4, 5 e 6 */
+#pai-4 .filho-3, #pai-5 .filho-3, #pai-6 .filho-3{
+    background-color: yellow;
+}
+
+#pai-4 .filho-3 {flex-basis: content;}
+#pai-5 .filho-3 {flex-basis: 250px;}
+#pai-6 .filho-3 {align-self: flex-end;}

@@ -1,0 +1,23 @@
+h1 {
+    border-width: 2px;
+    border-color: orange;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h3{ 
+    text-align: center;
+    color: blueviolet;
+}
+
+p{
+    border-radius: 10px;
+    border-style: dotted;
+}
+
+div{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: groove;
+    background-color: aqua;
+}

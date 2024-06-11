@@ -1,0 +1,12 @@
+h1, h3 {
+    text-align: center;
+}
+
+.test {
+    background-color: rgb(255, 0, 0);
+    border: 2px solid black;
+}
+
+.test > h1 {
+    color: aqua;
+}

@@ -1,0 +1,109 @@
+* {box-sizing: border-box;}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+header, footer {
+	font-size: 1rem;	
+}
+
+/* *** *** HEADER *** *** */
+header nav {	
+	display: flex;
+	justify-content: center;
+	align-items: center;			
+	position: relative;
+	top: 35px;
+}
+
+nav a {	
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	padding: 25px 45px;
+	background-color: rgb(75, 75, 75);
+	transition-duration: 0.5s;
+}
+
+nav a:hover {
+	background-color: rgb(200, 200, 200);
+	cursor: pointer;
+}
+/* *** *** FIM HEADER *** *** */
+
+/* *** *** MAIN *** *** */
+#img-topo {
+	background-image: url("imagens/topo.jpg");
+	height: 500px;	
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-weight: normal;
+}
+
+#img-topo div {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.75);
+	text-align: center;
+	font-size: 2.5rem;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#img-topo > div:last-of-type {
+	font-size: 1.25rem;
+	padding: 5px;
+}
+
+#titulo-meio {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+	height: 60px;
+	font-size: 1.5rem;	
+}
+
+#img-meio {
+	display: flex;
+	justify-content: center;	
+	flex-wrap: wrap;
+}
+
+#img-meio div {
+	width: 50%;
+	height: 300px;
+	background-position: center;
+	background-size: cover;
+	align-content: center;
+	font-size: 1.75rem;
+	transition-duration: 0.5s;	
+}
+
+#img-meio div:hover {
+	filter: brightness(150%);
+	color: red;
+	cursor: pointer;
+}
+
+/* *** *** IMAGENS *** *** */
+#solar {background-image: url('imagens/solar.png');}
+#eolica {background-image: url('imagens/eolica.jpg');}
+#hidro {background-image: url('imagens/energia-hidreletrica-fb.webp');}
+#nuclear {background-image: url('imagens/energia-nuclear1.jpg');}
+/* *** *** FIM MAIN *** *** */
+
+/* *** *** FOOTER *** *** */
+footer {
+	background-color: rgb(75, 75, 75);
+	padding: 15px 0;
+	font-weight: normal;
+}
+/* *** *** FIM FOOTER *** *** */

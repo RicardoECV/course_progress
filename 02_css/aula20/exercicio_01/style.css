@@ -1,0 +1,61 @@
+div {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;    
+}
+
+.titulo {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.child {
+    height: 30px;
+    margin-top: 20px;
+}
+
+#child-1 {
+    width: 50%;
+    background-color: red;
+}
+
+#child-2 {
+    width: 50vw;
+    background-color: green;
+}
+
+#child-3 {
+    background-color: blue;
+    width: 50vh;
+}
+
+#child-4 {
+    background-color: yellow;
+    width: 50vmin;
+}
+
+#child-5 {
+    background-color: orange;
+    width: 50vmax;
+}
+
+#child-6 {
+    background-color: blueviolet;
+    width: 50em;
+    font-size: 20px;
+}
+
+#child-7 {
+    background-color: violet;
+    width: 50rem;
+}
+
+#child-8 {
+    background-color: aqua;
+    width: 50ch;
+}
+
+#child-9 {
+    background-color: brown;
+    width: 50ex;
+}

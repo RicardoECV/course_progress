@@ -1,0 +1,35 @@
+body {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+h1 {text-align: center;}
+
+.divp {
+    border: 2px solid black;
+    margin: 50px auto;
+    background-color: lightgreen;
+    width: 600px; 
+    height: 300px;  
+    padding: 15px;    
+}
+
+div div {
+    background-color: lightcoral;
+    border: 2px solid black;  
+    width: 170px;
+    height: 40px;    
+    text-align: center;     
+}
+
+#div-1 * {    
+    display: block;
+    width: unset;
+    height: unset;
+}
+
+#div-2 * {display: inline;}
+
+#div-3 * {
+    display: inline-block;  
+    padding-top: 15px;
+}
+
+#div-4 * {display: none;}

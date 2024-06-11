@@ -1,0 +1,18 @@
+body {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+.divp {
+    border: 2px solid black;
+    margin: 50px auto;
+    background-color: lightgreen;     
+    padding: 15px;
+    text-align: center;    
+}
+
+div div {
+    background-color: yellow;
+    border: 2px solid black;  
+    width: 170px;    
+    margin: 20px;   
+}
+
+#div-1 * {display: inline-block;}

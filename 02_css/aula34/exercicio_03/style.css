@@ -1,0 +1,88 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.pai {
+    border: 2px solid black;
+    background-color: lightgreen;
+    width: 500px;
+    height: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.filho {
+    background-color: lightcoral;
+    border: 2px solid black
+}
+
+#pai-1 {
+    display: grid;
+}
+
+#pai-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#pai-3 {
+    display: grid;
+    grid-template-columns: auto auto 50%;
+}
+
+#pai-4 {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;  
+}
+
+#pai-4 .filho-1 {   
+    grid-column: 2 / 3;    
+}
+
+#pai-5 {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;  
+}
+
+#pai-5 .filho-1 {   
+    grid-column: 1 / 3;    
+}
+
+#pai-6 {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+#pai-6 .filho-1 {   
+    grid-row: 1 / 3;     
+}
+
+#pai-7 {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;  
+}
+
+#pai-7 .filho-1 {   
+    grid-row: 1 / 3;    
+    grid-column: 1 / 3; 
+}
+
+
+#pai-8 {
+    display: grid;
+    grid-template-columns: auto auto auto;  
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+#pai-9 {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;  
+    grid-template-rows: 33.3% 33.3% 33.3%;
+}
+
+#pai-9 .filho-1 {   
+    grid-row: 3 / 4;    
+    grid-column: 3 / 4; 
+}

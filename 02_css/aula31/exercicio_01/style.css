@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap');
+
+@font-face {
+    font-family: "Honk";
+    src: url('fonts/Honk/Honk-Regular-VariableFont_MORF\,SHLN.ttf');    
+}
+
+body {text-align: center;}
+
+div {
+    width: 400px;
+    height: 150px;  
+    margin: 40px auto;
+    border: 2px solid black;
+    padding: 30px;
+    font-size: 32px;
+}
+
+.div-1 {
+    font-family: "Workbench";
+    background-color: lightgreen;
+}
+
+.div-2 {
+    font-family: "Rubik Glitch Pop";
+    background-color: lightskyblue;
+}
+
+.div-3 {
+    font-family: "Honk";
+    background-color: lightcyan;
+}
+
+.div-4 {
+    font-family: "Mogilte";
+    background-color: lightcoral;
+}

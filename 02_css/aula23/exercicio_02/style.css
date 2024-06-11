@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+div {
+    border: 2px solid black;
+    margin: 20px auto;
+    
+}
+
+.div1 {
+    height: 300px;
+    width: 50vw;
+}
+
+.div2 {
+    width: 300px;
+    height: 50vw;
+}
+
+#d1 {
+    background-color: red;
+    min-width: 200px;
+}
+
+#d2 {
+    background-color: blue;
+    max-width: 400px;
+}
+
+#d3 {
+    background-color: green;
+    min-width: 200px;
+    max-width: 400px;
+}
+
+#d4 {
+    background-color: pink;
+    min-height: 200px;
+}
+
+#d5 {
+    background-color: greenyellow;
+    max-height: 400px;
+}
+
+#d6 {
+    background-color: skyblue;
+    min-height: 200px;
+    max-height: 400px;
+}

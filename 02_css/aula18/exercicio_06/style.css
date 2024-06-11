@@ -1,0 +1,75 @@
+body {
+    background-image: url('../lisboa_02.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    border-radius: 30px 0px 30px 0px;
+}
+
+.link1 {
+    color: yellow;
+    margin: 10px;
+    font-weight: 500;
+}
+
+.div1 {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+table, th, td{
+    border: 2px dotted black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.col1 {
+    padding: 2px 50px 2px 50px;
+}
+
+.col2 {
+    padding: 2px 60px 2px 60px;
+} 
+
+.col3 {
+    padding: 2px 110px 2px 110px;
+} 
+
+.para1 {
+    padding: 30px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.imagem {
+    width: 350px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0px 30px 20px 30px;
+}
+
+.tabela {
+    background-color: rgba(252, 235, 143, 0.671);
+    padding: 15px;
+}
+
+.rodape {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 12px;
+}
+
+.link2 {
+    color: white;
+}

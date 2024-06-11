@@ -1,0 +1,55 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,  Verdana, sans-serif;
+    text-align: center;    
+}
+
+div {
+    background-color: lightgreen;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.align {text-align: justify;}
+
+button {margin: 10px;}
+
+/*Grupo1*/
+.hover1:hover {background-color: red;}
+.hover2 {transition-duration: 1s;}
+.hover2:hover {background-color: red;}
+
+/*Grupo2*/
+.active1:active {background-color: red;}
+.active2 {transition-duration: 1s;}
+.active2:active {background-color: red;}
+
+/*Input1*/
+.input1 input:focus {background-color: red;}
+.input2 input:focus {
+    background-color: red;
+    transition-duration: 1s;
+}
+
+/*Links*/
+.link1 a:visited {color: red;}
+.link1 a:link {color: white;}
+
+/*Butoes*/
+.button1 button:first-child {background-color: red;}
+.button2 button:last-child {background-color: red;}
+.button3 button:nth-child(3) {background-color: red;}
+.button4 button:nth-child(odd) {background-color: red;}
+.button5 button:nth-child(even) {background-color: red;}
+.button6 button:nth-child(3n) {background-color: red;}
+
+/*Linguas*/
+.lang1:lang(pt) {background-color: red;}
+.lang2:lang(en) {background-color: red;}
+
+/*Input2*/
+.autof1 input:autofill {border:2px solid red;}
+.disabled1 input:disabled {border:2px solid red;}
+.enable1 input:enabled {border:2px solid red;}
+.readonly1 input:read-only {border: 2px solid red}
+.checked1 input:checked {outline: 2px solid red;}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio 22.1</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <form>
+
+            <label for="apelido">Apelido</label>
+            <input type="text" name="Apelido" id="apelido">
+            <br><br>
+        
+            <input type="text" placeholder="Vazio">
+            <br><br>
+
+            <input type="text" value="Lisboa">
+            <label for="uber">Ingrediente</label>
+            <br><br>
+
+            <input type="text" id="uber" value="Batata" readonly>
+            <br><br>
+
+            <label for="uber2">Ingrediente 2</label>
+            <input type="text" id="uber2" disabled>
+
+            <label for="uber3">Ingrediente 3</label>
+            <input type="text" id="uber3" minlength="4">
+            <br><br>
+
+            <label for="uber4">Ingrediente 4</label>
+            <input type="text" id="uber4" maxlength="4">
+            <br><br>
+
+            <label for="teste5">Importante *</label>
+            <input type="text" id="teste5" required>
+            <br><br>
+
+            <input type="submit" value="Pronto">
+
+            <hr>
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" min="0" max="100">
+
+            <label for="money">Dinheiro:</label>
+            <input type="number" id="money" min="0" step="2">
+
+            <label for="pw">Senha:</label>
+            <input type="password" id="pw">
+
+            <label for="mail">Email:</label>
+
+            <input type="email" id="mail">
+
+            <br><br>
+            <label>Questões</label>
+            <label for="resposta_1">1º Pergunta</label>
+
+            <input type="checkbox" id="resposta_1">
+            <br>
+
+            <label>Questão 2:</label>
+            <input type="radio" id="res1" name="questao_2">
+            <input type="radio" id="res2" name="questao_2" checked>
+            <input type="radio" id="res3" name="questao_2">
+
+            <label for="cor">Cor:</label>
+            <input type="color" id="cor" value="#ff0000">
+            <br><br>
+
+            <label for="tempo">Tempo</label>
+            <input type="date" id="tempo" value="1990-11-07">
+            <br><br>
+
+            <label for="hora">Hora</label>
+            <input type="time" id="hora" max="23:00" min="12:00" step="1800">
+            <br><br>
+
+            <label for="hora_data">Hora e Data</label>
+            <input type="datetime-local" id="hora_data">
+        </form>
+    </body>
+</html>

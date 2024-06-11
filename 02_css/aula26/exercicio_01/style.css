@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border-radius: 20%
+}
+
+.redondo {border-radius: 50%;}
+
+/*Linear-Gradient 1*/
+#id1 {background: conic-gradient(red, yellow);}
+
+#id2 {background: conic-gradient(from 180deg, red,  yellow);}
+
+#id3 {background: conic-gradient( red 0deg 120deg, orange 120deg 240deg, yellow 240deg 360deg);}
+
+#id4 {background: conic-gradient(red 0% 33.3%, orange 33.3% 66.6%, yellow 66.6% 100%);}
+
+/*Radial-Gradient 2*/
+#id5 {background: conic-gradient(at 75% 25%, white, orange, black);}
+
+/*Radial-Gradient 3*/
+#id6 {background: repeating-conic-gradient(black 0deg 10deg, blue 10deg 20deg);}
+
+#id7 {background: repeating-conic-gradient(black 10%, blue 20%);}

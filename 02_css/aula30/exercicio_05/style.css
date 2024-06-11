@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Rubik+Bubbles&family=Rubik+Moonrocks&display=swap');
+
+@font-face {
+    font-family: "Rubik1";
+    src: url('fonts/RubikBubbles-Regular.ttf');
+}
+
+h1 {
+    text-align: center;
+    font-family: "Danfo";
+}
+
+p {
+    font-family: "Rubik1";
+}
+
+h2 {
+    font-family: "Rubik Moonrocks";
+}

@@ -1,0 +1,105 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.pai {
+    border: 2px solid black;
+    background-color: lightgreen;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    padding: 20px;    
+}
+
+.filho {
+    border: 2px solid black
+}
+
+/*Segundo Exec*/
+#pai-1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+#pai-1 .filho-1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: aqua;
+}
+
+#pai-1 .filho-2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: violet;
+}
+
+#pai-1 .filho-3 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    background-color: red;
+}
+
+#pai-1 .filho-4 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    background-color: orange;
+}
+
+/*Terceiro Exec*/
+#pai-2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+    gap: 10px;   
+}
+
+#pai-2 .filho-1 {
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: red;
+}
+
+/*Quarto Exec*/
+#pai-3 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 10px;
+}
+
+#pai-3 .filho-1 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    background-color: greenyellow;
+}
+
+#pai-3 .filho-2 {
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: blue;
+}
+
+#pai-3 .filho-3 {
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    background-color: red;
+}

@@ -1,0 +1,30 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.pai {
+    background-color: lightgreen;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 15px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.filho {
+    background-color: coral;
+    border: 2px solid black; 
+    padding: 5px; 
+    width: 100px;
+    height: 100px;     
+}
+
+#pai-1 {row-gap: 20px;}
+#pai-2 {column-gap: 20px;}
+#pai-3 {gap: 20px;}

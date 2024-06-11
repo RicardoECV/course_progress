@@ -1,0 +1,25 @@
+div {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+#pai1, #pai2, #pai3, #pai4, #pai5, #pai6 {
+    background-color: lightgreen;
+    margin: auto;
+    width: 500px;
+    border: 3px solid black;
+}
+
+#pai1 > div {background-color: red;}
+
+#pai2 div {background-color: red;}
+
+#pai3 > div > button {background-color: red;}
+
+#pai4 > div > div > button {background-color: red;}
+
+#pai5 * button {background-color: red;}
+
+#pai6 * {background-color: red;}

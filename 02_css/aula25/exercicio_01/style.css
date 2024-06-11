@@ -1,0 +1,54 @@
+div {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Linear Gradient Grp1*/
+#id1 {background: linear-gradient(to left, red, yellow);}
+
+#id2 {background: linear-gradient(to right, red, yellow);}
+
+#id3 {background: linear-gradient(to top, red, yellow);}
+
+#id4 {background: linear-gradient(to bottom, red, yellow);}
+
+/*Linear Gradient Grp2*/
+#id5 {background: linear-gradient(to bottom left, purple, white, blue, red, black);}
+
+#id6 {background:linear-gradient(to bottom right, purple, white, blue, red, black);}
+
+#id7 {background:linear-gradient(to top left, purple, white, blue, red, black);}
+
+#id8 {background:linear-gradient(to top right, purple, white, blue, red, black);}
+
+/*Linear Gradient Grp3*/
+#id9 {background: linear-gradient(220deg, lightblue, blue, black);}
+
+#id10 {background: linear-gradient(110deg, lightblue, blue, black);}
+
+/*Linear Gradient Grp4*/
+#id11 {background: linear-gradient(0.25turn, white, purple, red, brown);}
+
+#id12 {background: linear-gradient(0.82turn, white, purple, red, brown);}
+
+/*Linear Gradient Grp5*/
+#id13 {background: linear-gradient(to right, red 0% 33.3%, white 33.3% 66.6%, blue 66.6% 100%);}
+
+#id14 {background: linear-gradient(to bottom, red 0% 33.3%, white 33.3% 66.6%, blue 66.6% 100%);}
+
+#id15 {background: linear-gradient(to bottom right, red 0% 33.3%, white 33.3% 66.6%, blue 66.6% 100%);}
+
+/*Linear Gradient Grp6*/
+#id16 {
+    background: 
+        linear-gradient(to bottom right, rgba(255, 0, 0, 0.295), rgba(255, 255, 255, 0.267) , rgba(0, 0, 255, 0.281)),
+        linear-gradient(to bottom right, rgba(255, 166, 0, 0.322), rgba(128, 0, 128, 0.219), rgba(0, 128, 0, 0.356)),
+        linear-gradient(to bottom right, black, violet, brown);
+}

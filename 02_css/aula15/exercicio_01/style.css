@@ -1,0 +1,29 @@
+#unico {
+    text-align: center;
+    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1, h3 {
+    text-align: center;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.amarelo {
+    background-color: yellow;
+    border: 10px dotted red;
+    height: 200px;
+}
+
+.vermelho {
+    background-color: red;
+    border: 10px dotted yellow;
+    color: white;
+    height: 200px;
+}
+
+p {
+    border: 2px solid black;
+    height: 200px;
+}

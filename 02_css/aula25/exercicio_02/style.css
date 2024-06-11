@@ -1,0 +1,59 @@
+div {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+h1, h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Radial-Gradient 1*/
+#id1 {background: radial-gradient(orangered, yellow);}
+
+#id2 {background: radial-gradient(closest-side,orangered, yellow);}
+
+#id3 {background: radial-gradient(closest-corner,orangered, yellow);}
+
+#id4 {background: radial-gradient(farthest-side,orangered, yellow);}
+
+#id5 {background: radial-gradient(farthest-corner,orangered, yellow);}
+
+/*Radial-Gradient 2*/
+#id6 {background: radial-gradient(circle at top left, white, black, orange);}
+
+#id7 {background: radial-gradient(circle at top right, white, black, orange);}
+
+#id8 {background: radial-gradient(circle at bottom left, white, black, orange);}
+
+#id9 {background: radial-gradient(circle at bottom right, white, black, orange);}
+
+/*Radial-Gradient 3*/
+#id10 {background: radial-gradient(circle at 50% 0%, purple, white, blue, red, black);}
+
+#id11 {background: radial-gradient(circle at 68% 75%, purple, white, blue, red, black);}
+
+/*Radial-Gradient 4*/
+#id12 {
+    background: radial-gradient(ellipse at 68% 75%, purple, white, blue, red, black);
+    width: unset;
+}
+
+/*Radial-Gradient 5*/
+#id13 {background: radial-gradient(circle at center, red 0% 33.3%, white 33.3% 66.6% , blue 66.6% 100%);}
+
+/*Radial-Gradient 6*/
+#id14 {
+    background: 
+        radial-gradient(circle at bottom right, rgba(255, 0, 0, 0.253), rgba(0, 0, 0, 0.267), rgba(255, 255, 255, 0.479)),
+        radial-gradient(circle at top left,blue, orange, green);
+}
+
+/*Radial-Gradient 7*/
+#id15 {
+    background: 
+        linear-gradient(to bottom right, rgba(255, 0, 0, 0.315) 0% 33.3%, rgba(255, 255, 255, 0.301) 33.3% 66.6%, rgba(0, 0, 255, 0.295) 66.6% 100%),
+        radial-gradient(circle at center, purple, rgb(0, 0, 0), rgb(255, 255, 255));
+}

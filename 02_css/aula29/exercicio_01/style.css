@@ -1,0 +1,34 @@
+.pai {
+    border: 3px solid black;
+    margin: 20px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../carro.jpg');
+}
+
+#pai-1 {filter: brightness(50%);}
+
+#pai-2 {filter: blur(10px);}
+
+#pai-3 {filter: grayscale(80%);}
+
+#pai-4 {filter: contrast(150%);}
+
+#pai-5 {filter: drop-shadow(5px 5px 5px orangered);}
+
+#pai-6 {filter: invert(100%);}
+
+#pai-7 {filter: saturate(20%);}
+
+#pai-8 {filter: sepia(60%);}
+
+#pai-9 {
+    filter: invert(100%) brightness(60%);
+}
+
+#pai-10 {transition-duration: 1s;}
+#pai-10:hover {
+    filter: brightness(100%);
+    background-image: url('../nasagrande.jpg');
+}

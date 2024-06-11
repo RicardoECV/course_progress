@@ -1,0 +1,74 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.pai {
+    border: 2px solid black;
+    background: linear-gradient(to bottom, red, orange, yellow );
+    width: 500px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.filho {
+    background-color: lightgreen;
+    border: 2px solid black
+}
+
+#pai-1 {
+    display: grid;
+}
+
+#pai-2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#pai-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#pai-3 .filho-1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#pai-3 .filho-3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+/*Primeiro Exec*/
+#pai-4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+#pai-4 .filho-1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: red;
+}
+
+#pai-4 .filho-2 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: aqua;
+}
+
+#pai-4 .filho-3 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: violet;
+}

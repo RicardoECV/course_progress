@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div {
+    margin: 50px auto;    
+    border: 1px solid black;
+    width: 300px;
+    background-color: aquamarine;
+}
+
+#id1 {
+    text-shadow: 20px 10px 5px rgba(0, 0, 0, 0.50);
+}
+
+#id2 {
+    text-shadow: 20px 10px 0px rgba(0, 0, 0, 0.20);
+}
+
+#id3 {
+    text-shadow:
+        50px 20px 0px rgba(0, 0, 0, 0.20),
+        -50px 20px 0px rgba(255, 0, 0, 0.20),
+        50px -20px 0px rgba(0, 255, 0, 0.20),
+        -50px -20px 0px rgba(0, 0, 255, 0.20);
+    background-color: white;
+}

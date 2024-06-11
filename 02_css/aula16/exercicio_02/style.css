@@ -1,0 +1,15 @@
+.cabecalho {
+    background-color: aquamarine;
+    text-align: left;
+}
+
+.conteudo {
+    background-color: rebeccapurple;
+    text-align: center;
+    color: violet;
+}
+
+.rodape {
+    background-color: coral;
+    text-align: right;
+}

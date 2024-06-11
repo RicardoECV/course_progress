@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pai {
+    border: 3px solid black;
+    padding:  10px;
+    text-align: center;
+    margin: 20px;
+    background-color: lightgreen;
+}
+
+button {
+    margin: 15px;
+}
+
+#pai-1 {transition-duration: 1s;}
+
+#pai-1:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#pai-2:active {
+    background-color: red;
+}
+
+#pai-3 input:focus {
+    background-color: aqua;
+}
+
+#pai-4 a:visited {color: violet;}
+#pai-4 a:link {color: black;}
+
+#pai-5 button:first-child {
+    background-color: red;
+}
+
+#pai-6 button:last-child {
+    background-color: red;
+}
+
+#pai-7 button:nth-child(5) {
+    background-color: red;
+}
+
+#pai-8 button:nth-child(odd) {
+    background-color: red;
+}
+
+#pai-9 button:nth-child(even) {
+    background-color: red;
+}
+
+#pai-10 button:nth-child(2n+1) {
+    background-color: red;
+}
+
+#pai-11 table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+#pai-11 th, #pai-11 td {
+    border: 2px solid black;
+}
+
+#pai-11 tr:nth-child(even) {
+    background-color: red;
+}
+
+#pai-12:lang(pt) {background-color: red;}
+#pai-12:lang(en) {background-color: yellow;}
+#pai-12:lang(de) {background-color: purple;}
+
+#pai-13 input:autofill {border: 3px solid red;}
+
+#pai-14 input:disabled {border: 3px solid red;}
+#pai-14 input:enabled {border: 3px solid green;}
+
+#pai-15 input:read-only {border: 3px solid red;}
+
+#pai-16 input:placeholder-shown {border: 3px solid red;}
+
+#pai-17 input:checked {
+    outline: 3px solid red;
+}
+
+#pai-18 input:not(:checked) {
+    outline: 3px solid red;
+}
+
+.pai:has(a) {background-color: aqua;}

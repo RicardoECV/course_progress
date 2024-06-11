@@ -1,0 +1,15 @@
+body > div {
+    border: 3px solid black;
+    width: 300px;
+    height: 200px;
+    margin: 40px auto;
+    text-align: justify;
+    padding: 10px;    
+}
+
+.vermelho {background-color: red;}
+.azul {color: blue;}
+
+.vermelho.azul {border: 5px dotted white;}
+
+.vermelho > .azul {color: white;}

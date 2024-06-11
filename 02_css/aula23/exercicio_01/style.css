@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    border: 2px dashed black;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    font-weight: 600;
+}
+
+#but1 {cursor: default;}
+
+#but2 {cursor: pointer;}
+
+#but3 {cursor: wait;}
+
+#but4 {cursor: grab;}
+
+#but5 {cursor: grabbing;}
+
+#but6 {cursor: crosshair;}
+
+#but7 {cursor: zoom-in;}
+
+#but8 {cursor: zoom-out;}
+
+#but9 {cursor: all-scroll;}
+
+#but10 {cursor: cell;}
+
+#but11 {cursor: copy;}
+
+#but12 {cursor: help;}
+
+#but13 {cursor: progress;}
+
+#verm {background-color: red;}
+
+#verde {background-color: greenyellow;}
+
+#azul {background-color: blue;}

@@ -1,0 +1,109 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+div {
+    box-sizing: border-box;
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#div-1 {
+    animation: mover;
+    animation-duration: 2s;   
+}
+
+#div-2 {
+    animation: mover;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#div-3 {
+    animation: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+#div-4 {
+    animation: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#div-5 {
+    animation: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+#div-6 {
+    animation: mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+}
+
+#div-7 {
+    animation: girar, mover;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;    
+}
+
+#div-8 {
+    animation: mover, test;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;    
+}
+
+
+@keyframes mover {
+
+    from {        
+        left: 0px;
+    }
+
+    to {
+        left: 200px;
+        background-color: red;
+    }
+
+}
+
+@keyframes girar {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+        background-color: red;
+    }
+
+}
+
+@keyframes test {
+
+    0%{background-color: black;}
+    25%{background-color: yellow;}
+    50%{background-color: purple;}
+    75%{background-color: blue;}
+    100%{background-color: black;}
+}

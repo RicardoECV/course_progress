@@ -1,0 +1,34 @@
+:root {
+    --tamanho: 500px;
+    --cor-1: green;
+    --cor-2: red;
+    --cor-3: yellow;
+    --cor-4: blue;
+    --fonte-1: italic;
+    --borda-1: 2px solid black;
+    --fonte-2: 25px
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-align: center;  
+}
+
+div {    
+    height: 200px;
+    width: var(--tamanho);
+    border: var(--borda-1);
+    margin: 40px auto;
+    font-size: var(--fonte-2); 
+}
+
+.grande {
+    background-color: var(--cor-2);
+    color: var(--cor-3);
+}
+.medio {
+    background-color: var(--cor-1);
+    font-weight: var(--fonte-1); 
+    font-style: var(--fonte-1);   
+    color: var(--cor-4);   
+}

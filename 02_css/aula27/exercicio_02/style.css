@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,  Verdana, sans-serif;
+    text-align: center;    
+}
+
+/*Field 1*/
+.legen1 {text-align: left;}
+
+/*Field 2*/
+.legen2 {
+    color: red;
+    font-weight: bolder;
+}
+
+.fil2 {border: 3px dashed red;}
+
+/*Field 3*/
+.legen3 {
+    color: green;
+    font-size: 60px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.fil3 {border: 10px double green;}
+
+/*Field 4*/
+.legen4 {
+    color: white;
+    border: 2px solid black;    
+    border-radius: 15px;
+    background-color: red;
+    padding: 0px 60px 0px 60px;
+}
+
+.fil4 {
+    border: 2px solid black;
+    border-radius: 20px;
+}

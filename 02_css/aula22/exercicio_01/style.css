@@ -1,0 +1,15 @@
+textarea {
+    width: 200px;
+    height: 100px;
+    border: 1px dashed blue;
+}
+
+#texto5 {resize: horizontal;}
+
+#texto6 {resize: vertical;}
+
+#texto7 {resize: none;}
+
+.label1 {color: orangered;}
+
+form {text-align: center;}

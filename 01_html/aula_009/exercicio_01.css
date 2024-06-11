@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: blueviolet;
+}
+
+h2 {
+    text-align: center;
+    color: brown;
+}
+
+div p {
+    color: aqua;
+    text-align: center;
+}
+
+div {
+    color: red;
+    text-align: right;
+
+}

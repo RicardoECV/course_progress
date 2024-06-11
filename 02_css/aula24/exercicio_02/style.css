@@ -1,0 +1,59 @@
+body {
+    text-align: justify;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;    
+}
+
+h1 {text-align: center;}
+
+div {
+    padding: 10px;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+
+#link-1 {
+    text-decoration: none;
+}
+
+#link-2 {
+    text-decoration: underline solid red 3px;
+}
+
+#link-3 {
+    text-decoration: underline dotted red 3px;
+}
+
+#link-4 {
+    text-decoration: underline wavy red 3px;
+}
+
+#link-5 {
+    text-decoration: underline double red 3px;
+}
+
+#link-6 {
+    text-decoration: underline dashed red 3px;
+}
+
+#link-7 {
+    text-decoration: overline solid red 3px;
+}
+
+#link-8 {
+    text-decoration: line-through solid red 3px;
+}
+
+#link-9 {
+    text-decoration: underline overline line-through solid red 3px;
+}
+
+#link-10 {
+    text-decoration-color: blue;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+    font-weight: 500;
+}
+
+#especial {background-color: yellow;}
