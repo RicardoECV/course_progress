@@ -1,0 +1,12 @@
+#carouselExampleIndicators .carousel-indicators button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    opacity: 1;
+    border: 1px solid white;
+}
+
+#carouselExampleIndicators .carousel-indicators button.active {
+    background-color: red;
+}

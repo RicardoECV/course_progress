@@ -1,0 +1,8 @@
+.pai {
+    min-width: 250px;
+    min-height: 300px;
+}
+
+.filho {
+    width: 180px;
+}
