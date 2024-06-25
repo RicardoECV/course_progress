@@ -1,0 +1,49 @@
+<mxfile host="app.diagrams.net" modified="2024-06-25T19:04:16.777Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="B2zxIg9pMjDvuHhBk_vN" version="24.6.3" type="device">
+  <diagram name="Página-1" id="zcvnM-s_Ex1yb-wuHq15">
+    <mxGraphModel dx="2074" dy="1178" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MH08ObssCZyB6lnVaVFP-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MH08ObssCZyB6lnVaVFP-1" target="MH08ObssCZyB6lnVaVFP-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH08ObssCZyB6lnVaVFP-1" value="Inicio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MH08ObssCZyB6lnVaVFP-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MH08ObssCZyB6lnVaVFP-11" target="MH08ObssCZyB6lnVaVFP-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH08ObssCZyB6lnVaVFP-11" value="Montar Escadote" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MH08ObssCZyB6lnVaVFP-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MH08ObssCZyB6lnVaVFP-13" target="MH08ObssCZyB6lnVaVFP-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH08ObssCZyB6lnVaVFP-13" value="Retirar Lampada Queimada" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MH08ObssCZyB6lnVaVFP-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MH08ObssCZyB6lnVaVFP-15" target="MH08ObssCZyB6lnVaVFP-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH08ObssCZyB6lnVaVFP-15" value="Verificar o tipo de lamapada" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MH08ObssCZyB6lnVaVFP-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MH08ObssCZyB6lnVaVFP-17" target="MH08ObssCZyB6lnVaVFP-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH08ObssCZyB6lnVaVFP-17" value="Montar lampada nova" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MH08ObssCZyB6lnVaVFP-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MH08ObssCZyB6lnVaVFP-19" target="MH08ObssCZyB6lnVaVFP-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MH08ObssCZyB6lnVaVFP-19" value="Arrumar escadote" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="584.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MH08ObssCZyB6lnVaVFP-21" value="Fim" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
