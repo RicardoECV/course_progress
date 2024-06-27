@@ -2,11 +2,10 @@ print('\n')
 
 x = 0
 nome_string = "Ricardo"
-z = 22
 
 def contagem(x):
     while x > 0: 
-        if x % 2:
+        if 0 == x % 2:
             print(x)   
             x = x-1
         else:
