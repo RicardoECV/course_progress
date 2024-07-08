@@ -2,10 +2,11 @@ import os
 
 def calcAnt(x):
   x -= 1
-  return (x)
+  return x
 
-def calcArea(largura, comprimento):  
-  return (largura * comprimento)
+def calcArea(largura, comprimento):
+  x = largura * comprimento
+  return x
 
 def calcIdade(anos, meses, dias):
   z = dias + (anos * 365) + (meses * 30)
@@ -25,11 +26,12 @@ def calcSalario(sal, ajuste):
   return (x + sal)
 
 def calcCusto(carro):
-  x = carro * 0.73  
-  return (carro + x)
+  x = carro * 0.28
+  y = carro * 0.45
+  return (carro + x + y)
 
 def calcVenda(carros, total, salF, venda):
-  x = venda * carros
+  x = (venda * carros)
   y = total * 0.05
   return (x + y + salF)
 
