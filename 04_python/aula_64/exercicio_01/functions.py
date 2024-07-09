@@ -18,7 +18,7 @@ def calcPos(num_2):
 
 def calcMaca(macas):
   if(macas >= 12):
-    x = macas * 1
+    x = macas
   else:
     x = macas * 1.3
   return x
@@ -38,12 +38,8 @@ def calcVotar (ano_a, ano_n):
     print("Não pode votar.")
 
 def calcMaior(num_1, num_2):
-  if(num_1 > num_2):
-    print(f"{num_1}")
-  elif(num_2 > num_1):  
-    print(f"{num_2}")
-  else:
-    print("São Iguais!")
+  print(f"{max(num_1, num_2)}")
+ 
 
 def calcContagem(num_1, num_2):
   if(num_1 > num_2):
@@ -52,12 +48,10 @@ def calcContagem(num_1, num_2):
     print(f"{num_2} {num_1}")
 
 def calcDuracao(hora_i, hora_f):
-  if(hora_i == hora_f):
-    return 24
-  elif(hora_f > hora_i):
-    return (hora_f - hora_i)
+  if(hora_i <= hora_f):
+    return (24 - (hora_i - hora_f))    
   else:
-    return (24 - (hora_i - hora_f))
+    return (hora_f - hora_i)
   
 
 def clean():
