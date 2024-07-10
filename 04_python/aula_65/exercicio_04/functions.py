@@ -2,31 +2,30 @@ import os
 import time
 
 def aprov(i, c):
-  if(i >= 18 and c.lower() == "sim"):
-    return "APROVADO PARA O ESTÁGIO"
-  elif(i >= 18 and c.lower() == "nao"):
-    return "NÃO APROVADO PARA O ESTÁGIO"
-  elif(i < 18 and c.lower() == "sim"):
-    return "APROVADO PARA A ESCOLA DE PROGRAMAÇÃO"
-  elif(i < 18 and c.lower() == "nao"):
-    return "NÃO APROVADO PARA A ESCOLA DE PROGRAMAÇÃO"
-  elif(i < 12):
-    return "NÂO APROVADO"
+  if(c.lower() == "sim"):
+    if(i >= 18):
+      return "APROVADO PARA O ESTÁGIO"  
+    else:
+      return "APROVADO PARA A ESCOLA DE PROGRAMAÇÃO"
+    
+  elif(c.lower() == "nao"):
+    if(i >= 18):
+      return "NÃO APROVADO PARA O ESTÁGIO DE PROGRAMAÇÃO" 
+    else:
+      return "NÃO APROVADO PARA A ESCOLA DE PROGRAMAÇÃO" 
+  
   else:
     return "ERRO NOS DADOS INFORMADOS, TENTE NOVAMENTE"
 
 def analisar(t):
   clean()
-  print("A analisar")
-  sleep(t)
-  clean()
-  print("A analisar.")
-  sleep(t)
-  clean()
-  print("A analisar..")
-  sleep(t)
-  clean()
-  print("A analisar...")
+  print("A analisar", end="", flush=True)
+  sleep(t)  
+  print(".", end="", flush=True)
+  sleep(t)  
+  print(".", end="", flush=True)
+  sleep(t)  
+  print(".", end="", flush=True)
   sleep(t)
   clean()
 
