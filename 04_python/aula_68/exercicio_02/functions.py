@@ -1,11 +1,7 @@
 import os
 import time
 
-def calcMul(x, y):
-  i = 0   
-  while (i < y):    
-    print(f"({i})")
-    i += x
+
 
 # Funções especiais
 def clean():
