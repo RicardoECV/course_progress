@@ -9,19 +9,20 @@ num_maior = 0
 num_menor = 0
 loop = 1
 
-
 print()
 while(loop <= num_analisados):  
-  num_1 = int(input(f"- Insira o ({loop}º) número: "))    
-  loop += 1  
-  if (loop == 2):
+  num_1 = int(input(f"- Insira o ({loop}º) número: "))   
+    
+  if (loop == 1):
     num_menor = num_1
     num_maior = num_1  
 
-  if (num_1 >= num_maior):
-    num_maior = num_1
-  if (num_1 <= num_menor):
-    num_menor = num_1
+  else:
+    if (num_1 >= num_maior):
+      num_maior = num_1
+    if (num_1 <= num_menor):
+      num_menor = num_1
+  loop += 1
 
 print(f"\nNúmero MAIOR: ({num_maior})")
 print(f"Número MENOR: ({num_menor})")
