@@ -9,6 +9,7 @@ def listaAlunos(num_alunos):
   return lista
 
 
+
 # Funções especiais
 def clean():
   if(os.name == "nt"): os.system("cls")
