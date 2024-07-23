@@ -13,28 +13,20 @@ def mostrarMenu():
 
 def registarAluno():
   print("--- Registo de uma Nova Pessoa ---\n")
-  novo_nome = input("Insira o nome da nova pessoa: ")
-  if(not novo_nome in globais.alunos): 
-    globais.alunos.append(novo_nome)   
-    print("\n--- Sucesso! ---\n")
-  else:
-    print("Pessoa já registada!")
+  globais.alunos.append(input("Insira o nome da nova pessoa: "))
+  print("\n--- Sucesso! ---\n")
 
 def editarAluno():
   print("--- Editar uma Pessoa ---\n")
-  listarAlunos(False)
-  num_aluno = int(input("Digite o número da pessoa que pretende editar: ")) - 1
+  listarAlunos()
+  num_aluno = int(input("Digite o número da pessoa que pretende editar: ")) -1
   print()
-  if(num_aluno >= 0 and num_aluno < len(globais.alunos)):
+  if(num_aluno >=0 and num_aluno < len(globais.alunos)):
     condicao = input(f"Deseja editar a Pessoa ({globais.alunos[num_aluno]}) ?(sim ou nao)")
     print()
     if(condicao.lower() == "sim"):
-      novo_nome = input("Insira o nome da nova pessoa: ")
-      if(not novo_nome in globais.alunos): 
-        globais.alunos.append(novo_nome)   
-        print("\n--- Sucesso! ---\n")
-      else:
-        print("Pessoa já registada!") 
+      globais.alunos[num_aluno] = input("Insira o novo nome: ")
+      print("\n--- Sucesso! ---")
     else:
       print("Pessoa não editada!")
   else:
@@ -42,15 +34,16 @@ def editarAluno():
   
 def apagarAluno(): 
   print("--- Apagar uma Pessoa ---\n")
-  listarAlunos(False)
-  num_aluno = int(input("Digite o número da pessoa que pretende apagar: ")) - 1
-  if(num_aluno >=0 and num_aluno < len(globais.alunos)):    
-    print(f"\n--- Sucesso! Apagou ({globais.alunos.pop(num_aluno)}) ---\n")
+  listarAlunos()
+  num_aluno = int(input("Digite o número da pessoa que pretende apagar: ")) -1
+  print()
+  if(num_aluno >=0 and num_aluno < len(globais.alunos)):
+    globais.alunos.pop(num_aluno)
+    print("\n--- Sucesso! ---")
   else:
     print("--- Número Inválido! ---\n")
 
-def listarAlunos(com_titulo): 
-  if(com_titulo): print("--- Lista de Pessoas ---\n") 
+def listarAlunos():  
   for i in range(len(globais.alunos)):
     print(f"{i+1} - {globais.alunos[i]}")
   print()
