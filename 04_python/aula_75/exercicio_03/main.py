@@ -17,7 +17,7 @@ for i in range(total):
   print()
 
 for i in range(len(pessoas)):
-  print(f"{i+1} - Nome: {pessoas[i][0]} | Morada: {pessoas[i][1]} | Idade: {pessoas[i][2]}")
+  print(f"{i+1} - Nome: {pessoas[i][0]} |  Morada: {pessoas[i][1]} |  Idade: {pessoas[i][2]}")
   
 print("\n" + "{:-^20}".format("Fim") + "\n")
 print("\n")
