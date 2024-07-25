@@ -13,22 +13,33 @@ def mostrarMenu():
 
 
 def novoColaborador():
+  existente = False
   print("--- Registar Novo Colaborador ---\n")
   nome_digitado = input(f"- Introduza o nome do colaborador: ")
   funcao_digitado = input(f"- Introduza a função do colaborador: ")
   ordenado_digitado = float(input(f"- Introduza o ordenado do colaborador: "))
-   
+
+  for i in range(len(globais.colaboradores)):
+    if(nome_digitado == globais.colaboradores[i][0]): 
+      existente = True
+         
   if(ordenado_digitado <= 0):
-    print("\nOrdenado Inválido.")
-  else: 
+    print("\n Ordenado Inválido.")
+    
+  elif(existente == True):
+    print("\nNome já existente.")
+
+  else:
+    print("\n --- Sucesso ---")
     globais.colaboradores.append(novaPessoa(nome_digitado, funcao_digitado, ordenado_digitado))
   print()
   
 
 def editarColaborador():
   print("--- Editar Colaborador ---\n")
-  exibirColaboradores(globais.colaboradores, False)
-  num_id = int(input("\nInsira o id que deseja editar: "))
+  exibirColaboradores(False)
+  num_id = int(input("\nInsira o id que deseja editar: ")) - 1
+
   if(num_id >= 0 and num_id < len(globais.colaboradores)):
     print("\n--- Editar ---\n")
     print("1 - Nome.")
@@ -37,61 +48,60 @@ def editarColaborador():
     print("0 - Cancelar\n")    
     num_submenu = int(input(f"Opção: "))
     print()
+    c = globais.colaboradores[num_id]
+
     if(num_submenu == 1):
-      nome = input("Introduza o novo nome: ")
-      globais.colaboradores[num_id][0] = nome
-      print("\nSucesso.")
+      c[0] = input("Introduza o novo nome: ")      
+      print("\n--- Sucesso ---")
 
     elif(num_submenu == 2):
-      cargo = input("Introduza o novo nome: ")     
-      globais.colaboradores[num_id][1] = cargo
-      print("\nSucesso.")
+      c[1] = input("Introduza o novo cargo: ")
+      print("\n--- Sucesso ---")
 
     elif(num_submenu == 3):
-      ordenado = float(input("Introduza o novo nome: "))     
-      globais.colaboradores[num_id][2] = ordenado
-      print("\nSucesso.")
+      c[2] = float(input("Introduza o novo ordenado: ")) 
+      print("\n--- Sucesso ---")
 
     elif(num_submenu == 0):
       print("Cancelado.")
     
+    else: print("\nOpção Inválida\n")
   else: print("\nOpção Inválida\n")
   print()
 
 
 def apagarColaborador():
   print("--- Apagar Colaborador ---\n")
-  exibirColaboradores(globais.colaboradores, False)
+  exibirColaboradores(False)
   print()
-  num_id = int(input("Insira o id que deseja apagar: "))
+  num_id = int(input("Insira o id que deseja apagar: ")) - 1
   if(num_id >=0 and num_id < len(globais.colaboradores)): 
     pessoa_apagada = globais.colaboradores.pop(num_id)       
     print(f"\n--- Sucesso! Apagou ({pessoa_apagada[0]}) ---\n")
   else: print("\nOpção Inválida\n")
 
 
-
-def calcularOrdenados(pessoas):
-  x = 0
-  for i in range(len(pessoas)):
-    x += pessoas[i][2] 
-  return x
-
-
-def novaPessoa(nome, idade, morada):
-  pessoa_individual = [nome, idade, morada]
-  return pessoa_individual
+def novaPessoa(nome, idade, morada):  
+  return [nome, idade, morada]
 
 
 def toString(i, pessoa_individual):
-  print(f"{i} - Nome: {pessoa_individual[0]} | Função: {pessoa_individual[1]} | Ordenado: {pessoa_individual[2]:.2f} €")
+  print(f"{i+1} - Nome: {pessoa_individual[0]} | Função: {pessoa_individual[1]} | Ordenado: {pessoa_individual[2]:.2f} €")
 
 
-def exibirColaboradores(pessoas, menu):
-  for i in range(len(pessoas)): toString(i, pessoas[i])
+def exibirColaboradores(menu):
+  if(menu):
+    print("--- Lista de Colaboradores ---\n")
+    ordenado = 0
+ 
+  for i in range(len(globais.colaboradores)): 
+    toString(i, globais.colaboradores[i])
+    if(menu):
+      ordenado += globais.colaboradores[i][2]
+  
   if(menu):
     print(f"\nTotal de Colaboradores: {i+1}")
-    print(f"Ordenado total da equipa: {calcularOrdenados(globais.colaboradores):.2f} €\n")
+    print(f"Ordenado total da equipa: {ordenado:.2f} €\n")
     
 
 # Funções especiais

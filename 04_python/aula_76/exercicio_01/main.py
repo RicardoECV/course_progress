@@ -14,7 +14,7 @@ while(True):
   if(opcao == 1): functions.novoColaborador()
   elif(opcao == 2): functions.editarColaborador()
   elif(opcao == 3): functions.apagarColaborador()
-  elif(opcao == 4): functions.exibirColaboradores(globais.colaboradores, True)
+  elif(opcao == 4): functions.exibirColaboradores(True)
   elif(opcao == 0):
     functions.loading(globais.t, "A Sair", 3)
     break
