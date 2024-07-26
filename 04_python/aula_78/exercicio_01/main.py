@@ -1,6 +1,10 @@
 import functions
+import globais
+
 
 functions.clean()
 
-print("\n" + "{:-^20}".format("Fim") + "\n")
+
+
+
 print("\n")

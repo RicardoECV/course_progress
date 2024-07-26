@@ -1,3 +1,4 @@
 # Variaveis Globais
-alunos = []
+produtos = []
+vendas = []
 t = 0.3
