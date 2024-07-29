@@ -22,5 +22,4 @@ while(True):
   else: print("--- Opção Inválido ---")
   functions.press_enter()
   
-
 print("\n")
