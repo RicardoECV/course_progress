@@ -18,5 +18,9 @@ print(f"- Nome:{p1.nome} - Idade: {p1.idade} - Morada: {p1.morada}")
 print(f"- Nome:{p2.nome} - Idade: {p2.idade} - Morada: {p2.morada}")
 print(f"- Nome:{p3.nome} - Idade: {p3.idade} - Morada: {p3.morada}")
 
+p1.toString()
+p2.toString()
+p3.toString()
+
 
 print("\n")
