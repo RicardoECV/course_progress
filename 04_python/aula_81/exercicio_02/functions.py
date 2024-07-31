@@ -2,14 +2,11 @@ import os
 import time
 import globais
 
-def loginCheck(login_digitado, senha_digitado):
+def loginCheck(login_digitado, senha_digitada):
   for u in globais.usuarios:
-    if(u.login == login_digitado and u.pw == senha_digitado):
+    if(u.login == login_digitado and u.pw == senha_digitada):
       return True
   return False
-
-# Funções auxiliares
-
 
 # Funções especiais
 def clean():

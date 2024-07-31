@@ -1,16 +1,16 @@
 import os
 import time
 import globais
+from Usuario import *
 
-def loginCheck(login_digitado, senha_digitado):
+# Funções
+def loginVerifica(login_digitado):
   for u in globais.usuarios:
-    if(u.login == login_digitado and u.pw == senha_digitado):
+    if(u.login == login_digitado):
+      u.toString()      
       return True
   return False
-
-# Funções auxiliares
-
-
+    
 # Funções especiais
 def clean():
   if(os.name == "nt"): os.system("cls")

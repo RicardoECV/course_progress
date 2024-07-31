@@ -1,15 +1,21 @@
 import os
 import time
 import globais
+from Cliente import *
 
-def loginCheck(login_digitado, senha_digitado):
-  for u in globais.usuarios:
-    if(u.login == login_digitado and u.pw == senha_digitado):
+# Funções
+def checkCard(cartao, senha):
+  for c in globais.clientes:
+    if(c.cartao == cartao and c.pin == senha):
       return True
   return False
 
-# Funções auxiliares
 
+# Funções auxiliares
+def init():
+  globais.clientes.append(Cliente("Ricardo", "Sr.", "1111", "1234"))
+  globais.clientes.append(Cliente("Manuel", "Sr.", "2222", "1234"))
+  globais.clientes.append(Cliente("Ana", "Sra.", "3333", "4321"))
 
 # Funções especiais
 def clean():
