@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Body */
+body {
+  max-width: 1280px;
+  margin: 0px auto;
+}
+
+/* < ========== Fonts do Site ========== > */
+.font-IBM {font-family: "IBM Plex Sans";}
+.font-Lato {font-family: "Lato";}
+
+
+/* < ========== Classes de Texto ========== > */
+.titulo-t1 {font-size: 25px;}
+.paragrafo-p1 {font-size: 13px;}
+
+
+/* < ========== Classes de Cores ========== > */
+.cinza-70 {color: rgb(112, 112, 112);}
+.cinza-4D {color: rgb(77, 77, 77);}
+.dourado-B1 {color: rgb(177, 126, 59);}
+.dourado-B4 {color: rgb(180, 125, 51);}
+
+/* < ========== Classe do Botão Saber Mais ========== > */
+.botao-saber-mais {
+  display: inline-block;
+  width: 120px;
+  height: 30px;
+  background-image: url("imagens/sabermais1.svg");
+}
+
+.botao-saber-mais:hover {
+  background-image: url("imagens/sabermais2.svg");
+}
+
+
+/* < ========== Inicio do HEADER ========== > */
+
+/* < ---------- TITULO ---------- > */
+.titulo-1 {font-size: 35px;}
+.linha-titulo {margin: 15px 55px;}
+.row-titulo {
+  margin-top: 52px;
+  max-width: 1280px;  
+}
+/* < ---------- FIM TITULO ---------- > */
+
+
+/* < ---------- NAVBAR do Header ---------- > */
+.menu-navbar {font-size: 18px;}
+.menu-navbar:hover {color: rgb(180, 125, 51);}
+
+.navbar-submenu {
+  font-size: 13px;
+  padding: 0px;
+}
+
+.navbar-submenu:hover {color: rgb(177, 126, 59);}
+
+#navbar .dropdown-menu.show {  
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 13px; 
+  padding: 25px 30px 35px 25px; 
+}
+/* < ---------- FIM NAVBAR do Header ---------- > */
+
+/* < ---------- CAROUSEL do Header ---------- > */
+.carousel-item {height: 730px;}
+
+/* < -- Caption/Inidicadores do Carousel -- > */
+.carousel-texto { 
+  padding: 0;
+  right: 0;  
+  left: 0;  
+  text-align: left;
+  top: 269px;
+}
+
+.carousel-col-caption {padding: 0px 48px 0px 40px;}
+.carousel-texto.novidade{top: 238px;}
+.carousel-texto-paragrafo-novidade {font-size: 16px;}
+.carousel-texto-titulo {font-size: 40px;}
+
+.carousel-texto-paragrafo {
+  padding-bottom: 15px;
+  font-size: 13px;
+}
+
+.carousel-indicators-posicao {
+  top: 551px;  
+  padding: 0 0 0 40px;
+}
+
+#carouselExampleCaptions .carousel-indicators button {
+  background-image: url("imagens/bolabanner1.svg");
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;  
+  background-color: transparent;
+  border: 0;    
+}
+
+#carouselExampleCaptions .carousel-indicators button.active {
+  background-image: url("imagens/bolabanner2.svg");
+}
+
+#carouselExampleCaptions .carousel-inner .carousel-item img {  
+  height: 730px;
+}
+/* < -- Fim Caption/Inidicadores do Carousel -- > */
+/* < ---------- Fim CAROUSEL do Header ---------- > */
+
+/* < ================ Fim do HEADER =============== > */
+
+
+/* < ========== Inicio do MAIN ============= > */
+
+/* < ------ Inicio CAIXA Bem-Vindo ------ > */
+.row-bem-vindo { 
+  width: 1190px;   
+  height: 538px;
+  margin: -45px 0px 0px 0px;   
+  background-color: white;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.514);     
+}
+
+/* < ---- IMAGEM Caixa Bem-Vindo ---- > */
+.col-img-bem-vindo {
+  width: auto;
+  padding: 0 0 0 56px;
+}
+
+.img_bem_vindo {
+  width: 312px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.514);
+}
+/* < --- Fim IMAGEM Caixa Bem-Vindo --- > */
+
+/* < --- TEXTO Caixa Bem-Vindo --- > */
+.p-top {padding-top: 30px;}
+.div-botao-saber-mais {padding-top: 25px;}
+
+.col-texto-bem-vindo{
+  margin: 0 0 0 -30px;
+  padding: 80px 0 0 0;  
+}
+/* < -- Fim TEXTO Caixa Bem-Vindo -- > */
+
+/* < ------ Fim CAIXA Bem-Vindo ------ > */
+
+/* < ---- Inicio Titulo ULTIMOS LIVROS ---- > */
+.col-ultimos-livros {
+  padding-left: 60px;
+}
+.titulo-ultimos {
+  padding: 85px 0px 70px 0px;
+}
+/* < ---- Fim Titulo ULTIMOS LIVROS ---- > */
+
+/* < ---- Inicio CARDS Destaques ---- > */
+.row-destaques {
+  padding: 0px 75px 106px 75px;
+  gap: 55px;
+}
+
+.titulo-destaques {  
+  font-size: 23px; 
+  padding: 30px 25px 0px 25px; 
+}
+
+.paragrafo-destaques {
+  padding: 35px 25px 0px 25px;
+  margin: 0px;
+}
+
+.card-destaques {height: 700px;}
+.img-destaques {height: 428px;}
+.novidade-destaques {padding: 10px 25px 0px 25px;}
+.paragrafo-destaques.novidade {padding-top: 10px;}
+.botao-destaques {margin: 15px 37px 0px 37px;}
+/* < ---- Fim CARDS Destaques ---- > */
+
+/* < ================ Fim do MAIN ================= > */
+
+
+/* < ================ Inicio do FOOTER ================= > */
+
+/* < ---- NAVBAR Footer ---- > */
+.footer-separador {margin: 0px 20px 27px 20px;}
+.footer-separador.bot {margin: 27px 20px 50px 20px;}
+
+.footer-navbar {
+  font-size: 16px;
+  padding: 0px;
+  gap: 20px;
+}
+
+.footer-navbar:hover {color: rgb(180, 125, 51);}
+.footer-navbar-sub:hover {color: rgb(177, 126, 59);}
+/* < ---- Fim NAVBAR Footer ---- > */
+
+
+/* < ---- CONTEUDO Footer ---- > */
+.footer-titulo-contactos {margin-right: -28px;}
+
+.footer-contactos {
+  padding: 20px 0px 0px 0px;
+  margin-right: -10px;
+}
+
+.footer-contactos-mail {padding: 20px 0px 0px 0px;}
+.footer-contactos-mail.editora {margin-right: -15px;}
+.footer-mail-espaco {padding-top: 6px;}
+.footer-reclamacao {padding: 58px 0px 0px 0px;}
+
+.footer-img-litigio {
+  width: 125px;
+  height: 29px;
+  padding-left: 43px;
+}
+
+.footer-img-reclama {
+  width: 77px;
+  height: 31px;
+}
+
+.footer-contactos-size {
+  font-size: 15px;
+}
+
+.footer-contactos.redes {
+  gap: 20px;
+  padding-top: 30px;  
+}
+
+.footer-copy {padding: 88px 0px 70px 0px;}
+
+.footer-img {  
+  width: 37px;
+  height: 37px;
+}
+/* < ---- Fim CONTEUDO Footer ---- > */
+
+/* < ----  IMAGENS Footer ---- > */
+.footer-img.insta {background-image: url("imagens/instagram1.svg");}
+.footer-img.insta:hover {background-image: url("imagens/instagram2.svg");}
+.footer-img.face {background-image: url("imagens/facebook1.svg");}
+.footer-img.face:hover {background-image: url("imagens/facebook2.svg");}
+.footer-img.linkdin {background-image: url("imagens/linkedin1.svg");}
+.footer-img.linkdin:hover {background-image: url("imagens/linkedin2.svg");}
+/* < ---- Fim IMAGENS Footer ---- > */
+
+/* < ================ Fim do FOOTER ================= > */

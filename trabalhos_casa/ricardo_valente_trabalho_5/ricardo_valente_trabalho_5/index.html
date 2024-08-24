@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tony Stark</title>  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!------------------------- HEADER --------------------------->
+  <header id="header" class="container-fluid px-0 w-100">
+
+    <!----- Titulo e Navbar ------>
+    <div class="row row-titulo position-absolute z-1 mx-0 w-100">
+
+      <!-- Titulo E Barra de Separação -->
+      <div class="col-12 text-center p-0 m-auto">
+        <h1 class="text-uppercase fw-bold titulo-1 font-IBM cinza-4D">tony stark</h1>
+        <hr class="linha-titulo cinza-70">
+      </div>
+
+      <!-------- Navbar -------->
+      <div id="navbar" class="col-12">
+        <nav class="navbar navbar-expand-lg py-0">
+          <div class="container-fluid">  
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0 text-uppercase fw-bold gap-4">
+                <li class="nav-item">
+                  <a class="nav-link dourado-B4 menu-navbar font-Lato cinza-4D" aria-current="page" href="#">home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link menu-navbar font-Lato cinza-4D" href="#">autor</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown menu-navbar font-Lato cinza-4D" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    livros
+                  </a>
+                  <ul class="dropdown-menu rounded-0 border-0 m-0 font-IBM shadow">
+                    <li><a class="dropdown-item fw-medium navbar-submenu font-IBM cinza-4D" href="#">senhora do amor e da guerra</a></li>
+                    <li><a class="dropdown-item fw-medium navbar-submenu font-IBM cinza-4D" href="#">o velho que pensava que fugia</a></li>                    
+                    <li><a class="dropdown-item fw-medium navbar-submenu font-IBM cinza-4D" href="#">o caracol estrábico</a></li>
+                    <li><a class="dropdown-item fw-medium navbar-submenu font-IBM cinza-4D" href="#">o colecionador de amnésias</a></li>
+                    <li><a class="dropdown-item fw-medium navbar-submenu font-IBM cinza-4D" href="#">o homem certo é dificil de encontrar</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link menu-navbar font-Lato cinza-4D" href="#">imprensa</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link menu-navbar font-Lato cinza-4D" href="#footer">contactos</a>
+                </li>                
+              </ul>  
+
+            </div>
+
+          </div>
+        </nav>
+      </div>
+
+    </div> 
+
+    <!-------- Carousel ---------->
+    <div class="row position-relative w-100 mx-0"> 
+
+      <div class="col-12 px-0 mx-0">
+        <div id="carouselExampleCaptions" class="carousel slide d-grid" data-bs-ride="true"> 
+
+          <!------ Botões do Carousel ------->
+          <div class="carousel-indicators row text justify-content-start mx-0 carousel-indicators-posicao z-2">
+            <div class="col-1 px-0"></div>
+            <div class="col-11 px-0">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>            
+          </div>
+
+          <!------- Carousel Items ------->
+          <div class="carousel-inner"> 
+
+            <div class="carousel-item active container-fluid px-0">
+              <img src="imagens/cabecalho1.jpg" class="d-block w-100 mx-0" alt="Senhora do Amor e da Guerra">               
+              <div class="carousel-caption carousel-texto novidade d-flex row m-0">
+                <div class="col-1 px-0"></div>
+                <div class="col-6 carousel-col-caption">
+                  <p class="text-uppercase fw-bold carousel-texto-paragrafo-novidade dourado-B4">novidade</p>
+                  <h3 class="font-IBM fw-light text-uppercase cinza-4D carousel-texto-titulo">
+                    senhora do amor e da guerra
+                  </h3>
+                  <p class="font-IBM cinza-4D carousel-texto-paragrafo">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis minus deleniti quibusdam unde placeat quasi, ut, quam voluptas repellat vitae aliquid doloribus tenetur possimus suscipit, omnis quo consequatur molestias ullam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, quos. Lorem ipsum dolor sit.
+                  </p>
+                  <a href="#" class="botao-saber-mais"></a>
+                </div>                
+              </div>              
+            </div>
+
+            <div class="carousel-item container-fluid px-0">
+              <img src="imagens/cabecalho2.jpg" class="d-block mx-0 w-100" alt="O Caracol Estrábico">
+              <div class="carousel-caption carousel-texto d-flex row m-0">
+                <div class="col-1 px-0"></div>
+                <div class="col-6 carousel-col-caption">
+                  <h3 class="font-IBM fw-light text-uppercase cinza-4D carousel-texto-titulo">
+                    o caracol estrábico
+                  </h3>
+                  <p class="font-IBM cinza-4D carousel-texto-paragrafo">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis minus deleniti quibusdam unde placeat quasi, ut, quam voluptas repellat vitae aliquid doloribus tenetur possimus suscipit, omnis quo consequatur molestias ullam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, quos. Lorem ipsum dolor sit.
+                  </p>
+                  <a href="#" class="botao-saber-mais"></a>
+                </div>     
+              </div>
+            </div>
+
+            <div class="carousel-item container-fluid px-0">
+              <img src="imagens/cabecalho3.jpg" class="d-block mx-0 w-100" alt="O Colecionador de Amnésias">
+              <div class="carousel-caption carousel-texto d-flex row m-0">
+                <div class="col-1 px-0"></div>
+                <div class="col-6 carousel-col-caption">
+                  <h3 class="font-IBM fw-light text-uppercase cinza-4D carousel-texto-titulo">
+                    o colecionador de amnésias
+                  </h3>
+                  <p class="font-IBM cinza-4D carousel-texto-paragrafo">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis minus deleniti quibusdam unde placeat quasi, ut, quam voluptas repellat vitae aliquid doloribus tenetur possimus suscipit, omnis quo consequatur molestias ullam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, quos. Lorem ipsum dolor sit.
+                  </p>
+                  <a href="#" class="botao-saber-mais"></a>
+                </div>     
+              </div>
+            </div>
+
+            <div class="carousel-item container-fluid px-0">
+              <img src="imagens/cabecalho4.jpg" class="d-block mx-0 w-100" alt="O Velho Que Pensava Que Fugia">
+              <div class="carousel-caption carousel-texto d-flex row m-0">
+                <div class="col-1 px-0"></div>
+                <div class="col-6 carousel-col-caption">
+                  <h3 class="font-IBM fw-light text-uppercase cinza-4D carousel-texto-titulo">
+                    o velho que pensava que fugia
+                  </h3>
+                  <p class="font-IBM cinza-4D carousel-texto-paragrafo">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis minus deleniti quibusdam unde placeat quasi, ut, quam voluptas repellat vitae aliquid doloribus tenetur possimus suscipit, omnis quo consequatur molestias ullam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, quos. Lorem ipsum dolor sit.
+                  </p>
+                  <a href="#" class="botao-saber-mais"></a>
+                </div>     
+              </div>
+            </div>
+
+          </div>          
+        </div>
+      </div>
+
+    </div>        
+
+  </header>
+
+  <!------------------------- MAIN ----------------------------->
+  <main class="container-fluid d-flex flex-column px-0 w-100">
+
+    <!------- Secção Bem-Vindo ------->
+    <div class="row z-1 row-bem-vindo align-items-center align-self-end"> 
+
+      <!-- Imagem --->
+      <div class="col-4 text-end col-img-bem-vindo">
+        <img class="img_bem_vindo" src="imagens/tony.webp" alt="Tony Stark">
+      </div>
+      <div class="col-1"></div>
+
+      <!--- Texto --->
+      <div class="col-7 d-flex flex-column align-self-start col-texto-bem-vindo">
+        <h3 class="titulo-t1 text-uppercase fw-bold font-IBM cinza-4D">bem-vindo ao meu website</h3>
+        <p class="paragrafo-p1 fw-light p-top cinza-4D">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, pariatur, consequuntur fugiat cum asperiores a accusantium itaque voluptas earum temporibus ipsum similique magni quo? Reprehenderit, enim! Dolorem minima sapiente debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos delectus deleniti architecto sit minus quisquam pariatur
+        </p>
+        <p class="paragrafo-p1 fw-light cinza-4D">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, pariatur, consequuntur fugiat cum asperiores a accusantium itaque voluptas earum temporibus ipsum similique magni quo? Reprehenderit, enim! Dolorem minima sapiente debitis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid animi laudantium vel, 
+        </p>
+        <p class="paragrafo-p1 fw-light cinza-4D">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, pariatur, consequuntur fugiat cum asperiores a accusantium itaque voluptas earum temporibus ipsum similique magni quo? Reprehenderit, enim! Dolorem minima sapiente debitis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, velit libero? Ipsum rerum mollitia atque
+        </p>
+        <div class="align-self-end div-botao-saber-mais">
+          <button class="botao-saber-mais border-0"></button>
+        </div>        
+      </div>
+
+    </div>
+
+    <!------ Titulo dos Cards -------->
+    <div class="row w-100 mx-0"> 
+      <div class="col-12 col-ultimos-livros">
+        <h2 class="titulo-t1 titulo-ultimos text-uppercase fw-bold cinza-4D">
+          últimos livros
+        </h2>
+      </div>      
+    </div>
+
+    <!----- Cards Ultimos Livros ----->
+    <div class="row d-flex justify-content-around row-destaques w-100 mx-0">
+
+      <!-- Card 1 -->
+      <div class="col p-0">
+        <div class="card card-destaques shadow rounded-0 border-0">
+          <img src="imagens/livro1.jpg" class="card-img-top img-destaques rounded-0" alt="Senhora do Amor e da Guerra">
+          <div class="card-body d-flex flex-column p-0">
+            <h5 class="card-title text-uppercase titulo-destaques cinza-4D">senhora do amor e da guerra</h5>
+            <h6 class="card-subtitle novidade-destaques dourado-B4">NOVIDADE</h6>
+            <p class="card-text fw-light paragrafo-p1 paragrafo-destaques novidade cinza-4D">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugiat accusantium voluptas consequatur dolores magni, asperiores sint
+            </p>
+            <a href="#" class="botao-destaques botao-saber-mais align-self-end"></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col p-0">
+        <div class="card card-destaques shadow rounded-0 border-0">
+          <img src="imagens/livro2.jpg" class="card-img-top img-destaques rounded-0" alt="O Velhor Que Pensava Que Fugia">
+          <div class="card-body d-flex flex-column p-0">
+            <h5 class="card-title text-uppercase titulo-destaques cinza-4D">o velho que pensava que fugia</h5>            
+            <p class="card-text fw-light paragrafo-p1 cinza-4D paragrafo-destaques">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, voluptate tempora! Quisquam tenetur tempore ut aspernatur
+            </p>
+            <a href="#" class="botao-destaques botao-saber-mais align-self-end"></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col p-0">
+        <div class="card card-destaques shadow rounded-0 border-0">
+          <img src="imagens/livro3.jpg" class="card-img-top img-destaques rounded-0" alt="O Colecionador de Amnésias">
+          <div class="card-body d-flex flex-column p-0">
+            <h5 class="card-title text-uppercase titulo-destaques cinza-4D">o colecionador de amnésias</h5>            
+            <p class="card-text fw-light paragrafo-p1 cinza-4D paragrafo-destaques">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore eum vel, provident iure voluptatum, ipsa atque odit voluptatibus 
+            </p>
+            <a href="#" class="botao-destaques botao-saber-mais align-self-end"></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!------------------------ FOOTER ---------------------------->
+  <footer id="footer" class="container-fluid px-0">
+
+    <!-- Navbar e Linhas Separadoras -->
+    <div class="row w-100 ms-0">
+
+      <!-- Navbar -->
+      <div id="navbar" class="col-12">
+
+        <!-- Linha Separadora -->
+        <hr class="footer-separador cinza-70">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg p-0">
+          <div class="container-fluid">            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent-2" aria-controls="navbarSupportedContent-2" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-2">
+              <ul class="navbar-nav m-auto mb-2 p-0 text-uppercase fw-bold footer-navbar">
+                <li class="nav-item">
+                  <a class="nav-link dourado-B4 footer-navbar font-Lato cinza-4D" aria-current="page" href="#">
+                    home
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link footer-navbar font-Lato cinza-4D" href="#">autor</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown footer-navbar font-Lato cinza-4D" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    livros
+                  </a>
+                  <ul class="dropdown-menu rounded-0 border-0 m-0 font-IBM shadow">
+                    <li><a class="dropdown-item p-0 fw-medium footer-navbar-sub cinza-4D" href="#">senhora do amor e da guerra</a></li>
+                    <li><a class="dropdown-item p-0 fw-medium footer-navbar-sub cinza-4D" href="#">o velho que pensava que fugia</a></li>                    
+                    <li><a class="dropdown-item p-0 fw-medium footer-navbar-sub cinza-4D" href="#">o caracol estrábico</a></li>
+                    <li><a class="dropdown-item p-0 fw-medium footer-navbar-sub cinza-4D" href="#">o colecionador de amnésias</a></li>
+                    <li><a class="dropdown-item p-0 fw-medium footer-navbar-sub cinza-4D" href="#">o homem certo é dificil de encontrar</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link footer-navbar font-Lato cinza-4D" href="#">
+                    imprensa
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link footer-navbar font-Lato cinza-4D" href="#">
+                    contactos
+                  </a>
+                </li>
+                
+              </ul>              
+            </div>
+          </div>
+        </nav>
+
+        <!-- Linha Separadora -->
+        <hr class="footer-separador bot cinza-70">
+
+      </div>
+
+    </div>
+
+    <!-- Titulos Footer -->
+    <div class="row w-100 ms-0 text-uppercase font-IBM cinza-4D">
+
+      <div class="col-1 p-0 footer-titulo-contactos"></div>
+      <div class="col-5 p-0">
+        <h2 class="m-0 fw-bold titulo-t1">contactos</h2> 
+      </div>
+      <div class="col-1 flex-fill"></div>
+      <div class="col-5 p-0 text-center ">
+        <h2 class="m-0 fw-bold titulo-t1">siga-me nas redes sociais</h2>
+      </div>
+
+    </div>
+
+    <!-- Conteudo Footer -->
+    <div class="row w-100 ms-0">
+
+      <div class="col-1 p-0 footer-titulo-contactos"></div>
+
+      <!-- Informação de Morada -->
+      <div class="col-3 footer-contactos font-IBM footer-contactos-size">
+        <div class="dourado-B1 fw-medium text-uppercase">
+          morada editora
+        </div>
+        <div class="cinza-4D fw-light">
+          Rua Jorge Colaço 37A
+        </div>
+        <div class="cinza-4D fw-light">
+          1700-252 Lisboa, Portugal
+        </div>
+      </div>
+
+      <!-- Informação de emails -->
+      <div class="col-2 footer-contactos-mail editora footer-contactos-size font-IBM">
+        <div class="dourado-B1 fw-medium text-uppercase">email editora</div>
+        <div class="cinza-4D fw-light footer-mail-espaco">info@culturaeditora.pt</div>
+      </div>
+
+      <div class="col-1 flex-fill footer-contactos-mail footer-contactos-size font-IBM">
+        <div class="dourado-B1 fw-medium text-uppercase">email autor</div>
+        <div class="cinza-4D fw-light footer-mail-espaco">geral@sebastiaolves.com</div>
+      </div>
+
+      <!-- Logos Redes Sociais -->
+      <div class="col-5 d-flex mx-0 justify-content-center text-center footer-contactos redes">
+        <a href="#" class="footer-img insta"></a>
+        <a href="#" class="footer-img face"></a>
+        <a href="#" class="footer-img linkdin"></a>
+      </div>
+
+    </div>
+
+    <!-- Info Reclamações/Copy. -->
+    <div class="row w-100 ms-0">
+
+      <div class="col-1 p-0 footer-titulo-contactos"></div>
+
+      <!-- Logos de Livro de Reclamações/RALC -->
+      <div class="col-5 footer-reclamacao">
+        <a href="#">
+          <img src="imagens/livroreclamacoes.svg" alt="Logo Livro de Reclamações" class="footer-img-reclama">
+        </a>        
+        <img src="imagens/ralc.svg" alt="Logo Resolução de Litígios" class="footer-img-litigio">
+      </div>
+
+      <div class="col-1 flex-fill"></div>
+
+      <!-- Informação Copyright -->
+      <div class="col-5 text-center fw-light footer-copy paragrafo-p1 font-IBM cinza-4D">
+        Copyright &copy 2021 Grupo MediaMaster. Todos os direitos reservados.
+      </div>
+
+    </div>
+
+  </footer>
+  
+</body>
+</html>
