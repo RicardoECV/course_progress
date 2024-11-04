@@ -75,7 +75,7 @@ header .dropdown-item:hover {
 }
 
 .sombreamento {  
-  box-shadow: 0px 3px 5px rgba(51, 51, 51, 0.75)
+  box-shadow: 0px 3px 5px rgba(51, 51, 51, 0.75);
 }
 /* --- Fim Navbar --- */
 
@@ -104,7 +104,7 @@ header .dropdown-item:hover {
 }
 
 .carousel-indicators .active {
-  background-color: #f9963b !important;
+  background-color: #f9963b;
 }
 /* --- Fim Carousel --- */
 
@@ -127,13 +127,19 @@ header .dropdown-item:hover {
   margin: 52px 0 46px 0;
 }
 
-.titulo-main {font-size: 38px;}
+.titulo-main {
+  font-size: 38px;
+  line-height: 58px;
+}
 
 .espacamento-texto-main {
   padding: 64px 0 55px 0;
 }
 
-.texto-main {font-size: 18px;}
+.texto-main {
+  font-size: 18px;
+  color: #333333;     
+}
 
 .botao-ver-mais {
   width: 194px;
@@ -155,21 +161,20 @@ header .dropdown-item:hover {
 
 /* ------ Inicio Area Cards ------ */
 .espacamento-cards-main {padding-bottom: 64px;}
-
 .card-top {max-height: 550px !important;}
-.img-card {height: 225px;}
-
-.titulo-card {font-size: 25px;}
-
-.espacamento-titulo-card {
-  padding: 23px 26px 20px 26px;
+.img-card {
+  height: 225px;
+  object-fit: cover;
+  object-position: center;
 }
+.titulo-card {font-size: 25px;}
+.espacamento-titulo-card {padding: 20px 26px 8px 26px;}
 
 .texto-card {  
   height: 66px;    
   font-size: 18px;
   padding: 0 26px 0px 26px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .card {
@@ -177,7 +182,7 @@ header .dropdown-item:hover {
   border-radius: 0px !important;  
 }
 
-.card-top {margin-bottom: 55px !important;}
+.card-espacamento {margin-bottom: 55px !important;}
 .card-body {border: 1px solid #333333;}
 
 .botao-ver-mais-card {
@@ -245,7 +250,10 @@ header .dropdown-item:hover {
 
 /* ------ Inicio Area Mapa ------ */
 .espacamento-mapa {margin: 30px 0;}
-.img-mapa {max-height: 513px;}
+.img-mapa {
+  height: 513px;
+  object-fit: none;
+}
 /* ------ Fim Area Mapa ------ */
 
 
@@ -393,6 +401,11 @@ footer .navbar-nav {
   }
   /* --- Fim Botão Ver Mais Main --- */
 
+  /* --- Inicio Cards --- */
+  .card-title {font-size: 20px;}
+  .card-text {font-size: 16px;}
+  /* --- Fim Cards --- */
+
   /* --- Contactos Footer --- */
   .separador-footer-top {
     width: 47px !important; 
@@ -441,22 +454,34 @@ footer .navbar-nav {
   /* --- Fim Siga-nos Footer --- */
 }
 
-/* ------ Media Queries 768>  ------ */
-@media screen and (max-width: 768px) { 
+/* ------ Media Queries 767>  ------ */
+@media screen and (max-width: 767px) { 
 
   /* --- Titulo/texto Main --- */
   .separador-main {width: 47px !important;}  
   .espacamento-separador-main {margin: 30px 0 30px 0 !important;}
-  .titulo-main {font-size: 20px !important;}
+  .titulo-main {
+    font-size: 20px !important;
+    line-height: normal;
+  }
   .texto-main {font-size: 13px !important;}
   .espacamento-texto-main {padding: 30px 0 34px 0 !important;}
   .espacamento-separador-main-2 {padding: 72px 0 20px 0 !important;}
   /* --- Fim Titulo/texto Main --- */
 
   /* --- Area Cards Main --- */
+  .espacamento-cards-main {padding-bottom: 30px;}
   .titulo-card {font-size: 17px !important;}
   .texto-card {font-size: 13px !important;}
-  #card-mobile {height: 450px !important;} 
+  .card-top {max-height: 450px !important;} 
+  .espacamento-titulo-card {padding: 20px 26px 15px 26px;}  
   /* --- Fim Area Cards Main --- */
   
+  /* --- Inicio Footer --- */
+  .espacamento-footer-top {margin-top: 40px !important;}
+  .img-mapa {    
+    height: 323px;
+    object-fit: none ;
+  }
+  /* --- Fim Footer --- */
 }
