@@ -19,8 +19,9 @@ body {
 /* --- Imagem Navbar --- */
 .img-contrucao {
   width: 255px;
+  height: 60px;  
   object-fit: contain;
-  margin: 0 78px 0 25px;      
+  margin: 25px 78px 0 25px;      
 }
 
 /* --- Inicio Navbar --- */
@@ -122,8 +123,10 @@ header .dropdown-item:hover {
 }
 
 .espacamento-separador-main {margin: 52px 0 46px 0;}
-
-.titulo-main {font-size: 38px;}
+.titulo-main {
+  font-size: 38px;
+  line-height: 58px;
+}
 .espacamento-texto-main {padding: 64px 0 55px 0;}
 .texto-main {font-size: 18px;}
 
@@ -132,7 +135,8 @@ header .dropdown-item:hover {
   height: 46px;    
   background-image: url("../images/buttons_icons/VerMais1.svg");
   background-repeat: no-repeat;
-  background-size: contain;  
+  background-size: contain; 
+  font-family: "Poppins-regular"; 
 }
 
 .botao-ver-mais:hover {
@@ -154,7 +158,7 @@ header .dropdown-item:hover {
   height: 66px;    
   font-size: 18px;
   padding: 0 26px 0px 26px;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
 }
 
 .card {
@@ -271,7 +275,7 @@ footer .navbar-nav {
 }
 
 .texto-copy {
-  margin: 0 0 19px 0px;
+  margin-bottom: 19px;
   font-size: 15px;
 }
 /* ------ Fim Area Siga-nos ------ */
@@ -282,10 +286,10 @@ footer .navbar-nav {
 
   /* --- Navbar --- */
   .img-contrucao {
-    width: 170px !important;
-    margin-right: 25px !important;
+    width: 180px !important;
+    margin: 10px 25px 10px 37px !important;
   }
-  header .nav-link {font-size: 13px !important;}
+  header .nav-link {font-size: 12px !important;}
   /* --- Fim Navbar --- */
 
 }
@@ -294,7 +298,7 @@ footer .navbar-nav {
 @media screen and (max-width: 991px) { 
 
   /* --- Navbar --- */
-  #espacamento-navbar-butao-mobile {padding: 25px !important;}
+  #espacamento-navbar-butao-mobile {padding: 22px 10px 22px 0px !important;}
 
   .navbar-mobile {
     position: absolute;
@@ -352,7 +356,10 @@ footer .navbar-nav {
     height: 7px !important;    
   }
 
-  .carousel-indicators {margin-bottom: 20px !important;}
+  .carousel-indicators {
+    margin-bottom: 22px !important;
+    gap: 2px;
+  }
   /* --- Fim Carousel --- */
 
   /* --- Titulo/Texto Main --- */
@@ -368,6 +375,7 @@ footer .navbar-nav {
     padding-bottom: 10px;      
   }
 
+  .texto-card {font-size: 16px !important;}
   .botao-ver-mais-card {
     width: 104px !important;
     height: 40px !important;
@@ -400,14 +408,14 @@ footer .navbar-nav {
   /* --- Fim Contactos Footer --- */
 
   /* --- Mapa Footer --- */
-  .espacamento-mapa {margin: 11px 0 !important;}
+  .espacamento-mapa {margin: 11px 0 7px 0 !important;}
   .img-mapa {max-height: 323px !important;}
   /* --- Fim Mapa Footer --- */
 
   /* --- Siga-nos Footer --- */
   .img-facebook {
-    width: 75px !important;
-    height: 75px !important;
+    width: 40px !important;
+    height: 40px !important;
     margin: 50px 0 25px 0 !important;
   }
 
@@ -417,9 +425,8 @@ footer .navbar-nav {
   }
 
   .texto-copy {
-    font-size: 11px !important;
-    text-align: center;
-    padding: 23px 0 27px 0 !important;
+    font-size: 11px !important;  
+    padding: 0 !important;
   }
   /* --- Fim Siga-nos Footer --- */
 }
@@ -429,17 +436,28 @@ footer .navbar-nav {
 
   /* --- Titulo/texto Main --- */
   .separador-main {width: 47px !important;}  
-  .espacamento-separador-main {margin: 30px 0 30px 0 !important;}
-  .titulo-main {font-size: 20px !important;}
+  .espacamento-separador-main {margin: 30px 0 20px 0 !important;}
+  .titulo-main {
+    font-size: 20px !important;
+    line-height: normal;
+  }
   .texto-main {font-size: 13px !important;}
   .espacamento-texto-main {padding: 30px 0 34px 0 !important;}
   .espacamento-separador-main-2 {padding: 72px 0 20px 0 !important;}
+  .botao-ver-mais {font-size: 10px;}
   /* --- Fim Titulo/texto Main --- */
 
   /* --- Area Cards Main --- */
+  #card-mobile {height: 385px !important;}
+  .img-card {height: 210px;}
+  .espacamento-cards-main {padding-bottom: 28px;}
   .titulo-card {font-size: 17px !important;}
-  .texto-card {font-size: 13px !important;}
-  #card-mobile {height: 450px !important;} 
+  .espacamento-titulo-card {padding: 20px 26px 10px 26px;}
+  .texto-card {
+    font-size: 13px !important;    
+  }
+  .botao-ver-mais-card {font-size: 9px;}
+   
   /* --- Fim Area Cards Main --- */
   
 }
