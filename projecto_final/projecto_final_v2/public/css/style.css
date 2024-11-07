@@ -304,11 +304,12 @@ footer .navbar-nav {
     position: absolute;
     right: 0;    
     align-items: flex-start !important;
-    top: 88px;           
+    top: 82px;           
     background-color: rgba(51, 51, 51, 0.75);  
     gap: 0 !important; 
     width: 100vmin;
-    min-width: 350px;          
+    min-width: 350px;  
+    transition-duration: 0.5s;         
   }
 
   header .nav-item {
@@ -332,21 +333,19 @@ footer .navbar-nav {
   }
 
   header .dropdown-item {
-    color: black !important;
-    width: 100% !important;
-    margin: 0 25px 0 25px; 
-    padding: 0 !important;   
+    color: black !important;    
+    margin: 0 55px 0 55px; 
+    padding: 0 !important;      
   }
 
-  header .dropdown-item:hover {
+  header .dropdown-item:hover {     
     color: #f9963b !important;
-    font-weight: normal !important;
-    width: 100% !important;
+    font-family: "Poppins-Regular";
   }
 
   .dropdown-divider-mobile {
-    width: 80% !important;
-    margin: 13px 25px 13px 25px;
+    max-width: 90% !important;
+    margin: 13px 50px 13px 55px;
   }
   /* --- Fim Navbar --- */
 
@@ -385,38 +384,43 @@ footer .navbar-nav {
   /* --- Fim Botão Ver Mais Main --- */
 
   /* --- Contactos Footer --- */
+  .espacamento-footer-top {margin-top: 30px;}
   .separador-footer-top {
     width: 47px !important; 
     margin: 60px auto 22px !important;   
   }
 
   .titulo-contactos {
-    font-size: 28px !important;
+    font-size: 20px !important;
     margin-bottom: 36px !important;
   }
 
   .texto-contactos {
-    font-size: 16px !important;
-    margin-bottom: 44px !important;  
+    font-size: 17px !important;
+    margin-bottom: 35px;
+    padding: 0 34px;  
+    line-height: normal;
   }
-
+  .contactos-mail {
+    margin-bottom: 55px !important;
+  }
   .img-contactos {
-    width: 52px !important;
-    height: 52px !important;
-    margin-bottom: 19px !important;
+    width: 42px !important;
+    height: 42px !important;
+    margin-bottom: 18px !important;
   }
   /* --- Fim Contactos Footer --- */
 
   /* --- Mapa Footer --- */
-  .espacamento-mapa {margin: 11px 0 7px 0 !important;}
+  .espacamento-mapa {margin: 11px 0 6px 0 !important;}
   .img-mapa {max-height: 323px !important;}
   /* --- Fim Mapa Footer --- */
 
   /* --- Siga-nos Footer --- */
   .img-facebook {
-    width: 40px !important;
-    height: 40px !important;
-    margin: 50px 0 25px 0 !important;
+    width: 42px !important;
+    height: 42px !important;
+    margin: 65px 0 25px 0 !important;
   }
 
   .titulo-facebook {    
@@ -425,8 +429,10 @@ footer .navbar-nav {
   }
 
   .texto-copy {
-    font-size: 11px !important;  
-    padding: 0 !important;
+    font-size: 10px !important;
+    text-align: center !important;  
+    padding: 12px 55px 0 55px !important;
+    margin-bottom: 15px;
   }
   /* --- Fim Siga-nos Footer --- */
 }
@@ -458,6 +464,5 @@ footer .navbar-nav {
   }
   .botao-ver-mais-card {font-size: 9px;}
    
-  /* --- Fim Area Cards Main --- */
-  
+  /* --- Fim Area Cards Main --- */  
 }
