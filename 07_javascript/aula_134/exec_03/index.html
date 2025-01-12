@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exec 134.1</title>
+  <link rel="stylesheet" href="stylce.css">
+  <script src="main.js" defer></script>
+
+</head>
+<body>
+
+  <h1>Javascript</h1>
+
+  <div class="box" id="entrada">
+    <h3>
+      Clinica de Nutrição
+    </h3>      
+    <form action="" onsubmit="capInput(event)">
+
+      <input type="text" name="nome" id="nome" placeholder="Nome" required>
+      <br>
+
+      <input type="number" name="peso" id="peso" min="1" placeholder="Peso" step="0.1" required>
+      <br>
+
+      <input type="number" name="altura" id="altura" min="1" placeholder="Altura" step="0.01" required>
+      <br><br>
+
+      <input type="submit" value="Submeter">
+      <button type="button" onclick="limpar()">Reset</button>
+
+    </form>   
+  </div>
+
+  <div class="box">
+    <div class="resultado">
+
+    </div>
+  </div>
+
+</body>
+</html>

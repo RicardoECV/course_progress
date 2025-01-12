@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  max-width: 1280px; 
+  margin: auto;
+}
+
+.carousel-item img{
+  height: 40vw;
+  object-fit: cover;
+}
+
+.carousel-indicators button {
+  width: 30px !important;
+  height: 30px !important;
+  border-radius: 50%;
+  opacity: 1 !important;
+  background-color: transparent !important;
+  border: 1px solid white !important;
+}
+
+.carousel-indicators button.active {
+  background-color: white !important;
+}
+
+.texto_index {
+  text-align: left;
+}
+
+.card img {
+  height: 50%;
+  object-fit: cover;
+}
+
+.texto_viagem {
+  text-align: justify;
+  font-size: 25px;
+}

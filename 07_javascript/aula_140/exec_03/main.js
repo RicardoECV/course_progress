@@ -1,0 +1,1 @@
+function abrirMenu() {setTimeout(function() {document.querySelector("#empreendimentos").click();}, 1000);}

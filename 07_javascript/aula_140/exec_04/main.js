@@ -1,0 +1,1 @@
+function abrirModal() {document.querySelector(".caixa-modal").classList.toggle("d-none");}

@@ -1,0 +1,12 @@
+body {
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+.box {
+  margin: 30px auto;
+  width: 50%;
+  border: 1px solid white;
+  padding: 40px;
+}

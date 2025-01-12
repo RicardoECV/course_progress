@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+div {
+  width: 411px;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.input_1 {
+  background-color: gray;  
+  padding: 20px 0px;  
+}
+
+.caixa {  
+  height: 209px;
+  background-image: url("circulo.jpg");
+  background-size: cover;
+}
+
+p {
+  color: red;
+  font-size: 20px; 
+  font-weight: bold;
+}
+
+.raio {transform: translate(-40px, 80px);}
+
+.comp {transform: translate(145px, 55px);}

@@ -1,0 +1,37 @@
+body { 
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: auto;  
+}
+
+.card {
+  width: 700px;
+  max-height: 200px;       
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.3);
+  margin: 15px auto;
+  display: flex;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  text-align: justify;
+}
+
+.card h4 {text-align: center;}
+.card p {margin: 15px;}
+.card div {
+  margin: auto;
+}
+
+.card img {
+  width: 35%;  
+  object-fit: cover;  
+}
+
+.campo_sobre {
+  width: 500px;
+  height: 150px;  
+}
+
+.perfil {
+  background-color: aquamarine;
+}

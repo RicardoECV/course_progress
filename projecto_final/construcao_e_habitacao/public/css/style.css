@@ -1,0 +1,835 @@
+/* ------ Classes Fonts ------ */
+.poppins-light {font-family: "Poppins-Light";}
+.poppins-medium {font-family: "Poppins-Medium";}
+.poppins-regular {font-family: "Poppins-Regular";}
+.poppins-bold {font-family: "Poppins-Bold";}
+
+/* ------ Classes Cores ------ */
+.cinza-escuro {color: #333333}
+
+/* ------ Body ------ */
+body {
+  box-sizing: border-box;
+  margin: auto !important;
+  max-width: 1617px !important;
+}
+
+/* --------- INICIO HEADER --------- */
+
+/* --- Imagem Navbar --- */
+.img-contrucao {
+  width: 290px;    
+  object-fit: contain;
+  margin: 30px 60px 20px -27px;        
+}
+
+/* --- Inicio Navbar --- */
+header .navbar {padding-top: 50px !important;}
+
+/* Toggler-Mobile */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.img-toggler {
+  width: 30px;
+  height: 30px;
+}
+
+header .nav-link {
+  color: #333333 !important;
+  font-size: 14px;  
+}
+
+.navbar-espacamento-interno {gap: 14px}
+
+header .nav-link {
+  border-bottom: 6px solid white !important;
+  padding: 0px !important;
+  padding-bottom: 15px !important;
+}
+
+header .nav-link:hover, header .nav-link.active  {
+  border-bottom: 6px solid #333333 !important;
+  transition-duration: 0.5s;
+}
+
+header .dropdown-menu {
+  background-color: rgba(51, 51, 51, 0.91);
+  font-size: 14px;    
+}
+
+header .dropdown-divider {
+  background-color: rgba(255, 255, 255, 0.40) !important;
+  height: 2px;
+  opacity: 1;
+}
+
+header .dropdown-item {
+  width: 230px;
+  white-space: normal !important;       
+}
+
+header .dropdown-item:hover {  
+  transition-duration: 0.1s !important;
+  background-color: transparent !important;  
+  font-family: "Poppins-Bold";   
+}
+
+header .dropdown-item.active {  
+  transition-duration: 0.1s !important;
+  background-color: transparent !important;  
+  font-family: "Poppins-Bold";   
+}
+
+.sombreamento {box-shadow: 0px 4px 8px rgba(51, 51, 51, 0.75)}
+/* --- Fim Navbar --- */
+
+/* --- Inicio Carousel --- */
+.carousel-item {
+  max-height: 645px !important;
+  height: 40vw !important;
+  min-height: 259px !important;  
+}
+
+.carousel-item img{ 
+  width: 100% !important;
+  height: 100% !important;  
+  object-fit: cover !important; 
+}
+
+.carousel-indicators {
+  gap: 5px; 
+  margin-bottom: 41px;  
+}
+
+.carousel-button {
+  width: 71px !important;
+  height: 13px !important;  
+  opacity: 1 !important;
+}
+
+.carousel-indicators .active {background-color: #f9963b !important;}
+/* --- Fim Carousel --- */
+
+/* --- Inicio Banner --- */
+.img-banner {  
+  max-height: 463px;
+  height: 40vw;
+  min-height: 242px; 
+  object-fit: cover;
+}
+/* --- Fim Banner --- */
+
+/* --- Inicio Banner Destaques --- */
+.img-banner.destaques, .centro-ferias, .contactos {   
+  min-height: 259px;   
+}
+/* --- Fim Banner Destaques --- */
+
+/* --------- FIM HEADER --------- */
+
+
+/* --------- INICIO MAIN --------- */
+
+/* ------ Inicio Area Bem-vindo ------ */
+.separador-main {
+  width: 78px;
+  height: 3px;
+  color: #f9963b;
+  background-color: #f9963b;
+  border-width: 0;
+  opacity: 1;  
+}
+
+.espacamento-separador-main {margin: 47px 0 35px 0;}
+
+.titulo-main {
+  font-size: 38px;
+  line-height: 58px;
+}
+.espacamento-texto-main {padding: 53px 0 55px 0;}
+.texto-main {font-size: 18px;}
+
+.botao-ver-mais {
+  width: 194px;
+  height: 46px;    
+  background-image: url("../images/buttons_icons/VerMais1.svg");
+  background-repeat: no-repeat;
+  background-size: contain; 
+  font-family: "Poppins-regular"; 
+  color: #333333 !important;
+}
+
+.botao-ver-mais:hover {
+  background-image: url("../images/buttons_icons/VerMais1Hover.svg");
+  color: white !important;
+}
+
+.espacamento-separador-main-2 {padding: 115px 0 34px 0;}
+/* ------ Fim Area Bem-vindo ------ */
+
+/* ------ Inicio Main Area Cards ------ */
+.espacamento-cards-main {padding-bottom: 40px;}
+.img-card-home {height: 255px;}
+.titulo-card {
+  font-size: 25px;
+  padding: 20px 26px 7px 26px;
+}
+
+.texto-card {  
+  height: 66px;    
+  font-size: 18px;
+  padding: 0 26px 0px 26px;
+  margin-bottom: 0px;
+  line-height: 25px;
+}
+
+.card-top-home {
+  max-height: 550px !important;
+  margin-bottom: 55px !important;
+  border: 0;  
+  border-radius: 0px !important;
+}
+
+.card-body-home {border: 1px solid #333333;}
+
+.botao-ver-mais-card {
+  width: 128px;
+  height: 35px;
+  background-image: url("../images/buttons_icons/VerMais2.svg");
+  background-repeat: no-repeat;
+  background-size: contain; 
+  position: absolute;
+  bottom: -17px; 
+  font-size: 12px; 
+  color: #333333 !important;  
+}
+
+.botao-ver-mais-card:hover {
+  background-image: url("../images/buttons_icons/VerMais2Hover.svg");
+  color: white !important;
+}
+/* ------ Fim Main Area Cards ------ */
+
+/* ------ Inicio Area Quem Somos ------ */
+.espacamento-separador-main-quem {margin: 47px 0 35px 0;}
+.espacamento-texto-main-quem-somos {padding: 37px 0 30px 0;}
+.quem-somos-espacamento {padding: 0px 27px 0 22px;}
+
+.img-quem-somos { 
+  max-height: 524px;  
+  padding: 7px 27px 0 0;
+}
+/* ------ Fim Area Quem Somos ------ */
+
+/* ------ Inicio Area Socios ------ */
+.espacamento-texto-main-socios {padding: 37px 0 0 0;}
+/* ------ Fim Area Socios ------ */
+
+/* ------ Inicio Cards Noticias ------ */
+.espacamento-separador-noticias {margin: 47px 0 35px 0;}
+.card-body-noticias {
+  border: 1px solid #333333;
+  border-radius: 0;
+}
+
+.img-card-noticias {
+  height: 357px;
+}
+
+.titulo-card-noticias {
+  font-size: 25px;
+  padding: 25px 26px 0 37px;
+}
+
+.texto-card-noticias {     
+  font-size: 18px;
+  padding: 20px 30px 60px 37px;
+  margin-bottom: 0px;
+  line-height: 25px;
+}
+
+.botao-pagina {
+  border: 1px solid #333333;
+  border-radius: 3px;
+  width: 34px;
+  height: 34px;   
+  font-family: "Poppins-Regular";
+  font-size: 23px;
+}
+
+.botao-pagina:hover {  
+  background-color: #333333;
+  color: white;
+}
+
+.botao-pagina.active {  
+  background-color: #333333;
+  color: white;
+}
+/* ------ Fim Cards Noticias ------ */
+
+/* ------ Inicio Cards Destaques ------ */
+.espacamento-separador-destaques {margin: 47px 0 35px 0;}
+.img-card-destaques {max-height: 357px;}
+
+.card-body-destaques {
+  border: 1px solid #333333;
+  border-radius: 0;
+}
+
+.titulo-card-destaques {
+  font-size: 25px;
+  padding: 25px 26px 0 37px;
+}
+
+.texto-card-destaques {     
+  font-size: 18px;
+  padding: 20px 30px 60px 37px;
+  margin-bottom: 0px;
+  line-height: 25px;
+}
+/* ------ Fim Cards Destaques ------ */
+
+/* ------ Inicio Destaque Unico ------ */
+.botao-destaque {  
+  width: 312px;
+  height: 61px;
+  font-size: 20px;
+  border: 1px solid #333333;
+  border-radius: 40px;
+  padding: 20px 40px 20px 40px;   
+}
+
+.botao-destaque:hover {
+  color: white;
+  background-color: #333333;
+}
+/* ------ Fim Destaque Unico ------ */
+
+/* ------ Inicio Empreendimentos ------ */
+.espacamento-separador-empreendimento {margin: 50px 0 35px 0;}
+
+.empreendimento-espacamento {
+  padding: 0px 27px 0 22px;
+}
+
+.titulo-empreendimento {
+  font-size: 36px;
+  line-height: 35px;
+}
+
+.espacamento-texto-empreendimento {padding: 46px 0 0 0;}
+/* ------ Fim Empreendimentos ------ */
+
+/* ------ Inicio Centro de Ferias ------ */
+.espacamento-separador-centro-ferias {margin: 47px 0 35px 0;}
+.texto-centro-ferias {font-size: 18px;}
+.espacamento-texto-main-centro-ferias {padding: 37px 0 15px 0;}
+.centro-ferias-espacamento {padding: 0px 27px 0 22px;}
+
+.img-centro-ferias { 
+  max-height: 524px;  
+  padding: 7px 27px 0 0;
+}
+/* ------ Fim Centro de Ferias ------ */
+
+/* ------ Inicio Pagina Contactos ------ */
+.espacamento-separador-main-contactos {margin: 47px 0 35px 0;}
+.espacamento-contactos {padding: 90px 0 0 0;}
+
+.texto-contacto-campo {
+  font-size: 25px;  
+}
+
+.img-recaptcha {
+  width: 199px;
+  height: 49px;
+}
+
+.contactos-input {
+  border: 1px solid #333333;
+  border-radius: 10px;
+  height: 35px;
+  font-size: 18px;
+  padding-left: 12px;
+  margin-bottom: 5px;
+}
+
+.contactos-area-texto {
+  border: 1px solid #333333;
+  border-radius: 10px;
+  padding: 5px 0 0 12px;
+  height: 172px; 
+  font-size: 18px;
+ 
+}
+
+.contactos-campo-obrigatorio {font-size: 13px;}
+.contactos-copia-email {font-size: 13px;}
+
+.botao-contactos {
+  width: 171px;
+  height: 47px;
+  border: 1px solid #333333;
+  border-radius: 30px;
+  background-color: white;
+  font-size: 16px;  
+}
+
+.botao-contactos:hover {
+  background-color: #333333;
+  color: white;
+}
+/* ------ Fim Pagina Contactos ------ */
+
+/* --------- FIM MAIN --------- */
+
+
+/* --------- INICIO FOOTER --------- */
+
+/* ------ Inicio Area Contactos ------ */
+.espacamento-footer-top {margin-top: 112px;}
+
+.img-fundo-contactos {      
+  background-image: url("../images/desktop/FooterContactos.png");  
+  background-size: cover;  
+  background-repeat: no-repeat;  
+  background-position: center;   
+}
+
+.filtro-img {background-color: rgba(0,0,0, 0.6);}
+
+.separador-footer-top {
+  opacity: 1;
+  width: 78px;
+  height: 3px;
+  color: white;
+  background-color: white;  
+  margin: 132px auto 45px;
+}
+
+.titulo-contactos {
+  font-size: 43px;
+  margin-bottom: 87px;
+}
+
+.img-contactos {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 40px;
+}
+
+.texto-contactos {
+  font-size: 23px;  
+  margin-bottom: 65px;     
+}
+
+.contactos-mail {word-break: break-all;}
+/* ------ Fim Area Contactos ------ */
+
+/* ------ Inicio Area Mapa ------ */
+.espacamento-mapa {margin: 20px 0;}
+.img-mapa {height: 513px;}
+/* ------ Fim Area Mapa ------ */
+
+/* ------ Inicio Area Siga-nos ------ */
+.img-fundo-facebook {       
+  background-image: url("../images/desktop/FooterFacebook.png");  
+  background-size: cover;   
+  background-repeat: no-repeat;
+  background-position: center;   
+}
+
+.img-facebook {
+  width: 100px;
+  height: 100px;
+  margin: 84px 0 29px;
+}
+
+.titulo-facebook {
+  font-size: 29px;
+  margin-bottom: 68px;  
+}
+
+.separador-footer-bot {
+  height: 1px;
+  color: white;
+  background-color: white;
+  opacity: 1;  
+}
+
+footer .nav-link {
+  color: white;
+  font-size: 15px;
+} 
+
+footer .nav-link.active {color: #f9963b !important;}
+footer .nav-link:hover {color: #f9963b;} 
+footer .nav-item {font-family: "poppins-bold";}
+
+footer .navbar-nav {
+  gap: 15px;
+  margin: 50px 0px 43px 0 !important;  
+}
+
+.texto-copy {
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+/* ------ Fim Area Siga-nos ------ */
+/* --------- FIM FOOTER --------- */
+
+/* ------ Media Queries 1200>  ------ */
+@media screen and (max-width: 1200px) {
+
+  /* --- Navbar --- */
+  .img-contrucao {
+    width: 180px !important;
+    margin: 10px 25px 10px 37px !important;
+  }
+  
+  header .nav-link {font-size: 12px !important;}
+  /* --- Fim Navbar --- */
+  
+  /* --- Inicio Empreendimentos --- */
+  .empreendimento-espacamento {padding-bottom: 10px;}
+  /* --- Fim Empreendimentos --- */  
+}
+
+/* ------ Media Queries 991>  ------ */
+@media screen and (max-width: 991px) { 
+
+  /* --- Navbar --- */
+  #espacamento-navbar-butao-mobile {padding: 22px 20px 22px 0px !important;}
+
+  .navbar-mobile {
+    position: absolute;
+    right: 0;    
+    align-items: flex-start !important;
+    top: 82px;           
+    background-color: rgba(51, 51, 51, 0.75);  
+    gap: 0 !important; 
+    width: 100vmin;
+    min-width: 350px; 
+  }
+
+  header .nav-item {
+    width: 100%;
+    border-bottom: 1px solid white !important;         
+  }
+
+  #nav-link-mobile {
+    padding-bottom: 0 !important;
+    color: white !important;
+    border-bottom: 0 !important;
+    margin: 10px 36px 10px 53px !important;
+    font-size: 14px !important;       
+  }
+
+  #nav-link-mobile:hover,
+  #nav-link-mobile.active {
+    font-family: "Poppins-Bold";
+  }
+
+  
+  .dropdown-menu-mobile {
+    background-color: white !important;
+    padding: 10px 0 10px 0;    
+  }
+
+  header .dropdown-item {
+    color: black !important;    
+    margin: 0 0 0 55px; 
+    padding: 0 !important;     
+    white-space: nowrap !important;
+  }
+
+  header .dropdown-item.active,
+  header .dropdown-item:hover {     
+    color: #f9963b !important;
+    font-family: "Poppins-Regular";
+  }
+
+  .dropdown-divider-mobile {
+    max-width: 90% !important;
+    margin: 9px 40px 9px 55px;
+  }
+  /* --- Fim Navbar --- */
+
+  /* --- Carousel --- */
+  .carousel-button {
+    width: 35px !important;
+    height: 7px !important;    
+  }
+
+  .carousel-indicators {
+    margin-bottom: 22px !important;
+    gap: 2px;
+  }
+  /* --- Fim Carousel --- */
+
+  /* --- Titulo/Texto Main --- */
+  .titulo-main {font-size: 30px !important;}
+  .texto-main {font-size: 16px !important;}
+  /* --- Fim Titulo/Texto Main --- */
+ 
+  /* --- Botão Ver Mais Main --- */
+  .botao-ver-mais {
+    width: 120px !important;
+    height: 40px !important;
+    font-size: 11px;  
+    padding-bottom: 10px;      
+  }
+
+  .texto-card {font-size: 16px !important;}
+
+  .botao-ver-mais-card {
+    width: 104px !important;
+    height: 40px !important;
+    bottom: -25px !important;
+    padding-bottom: 10px !important;
+  }
+  /* --- Fim Botão Ver Mais Main --- */
+
+  /* --- Inicio Area Quem Somos --- */
+  .img-quem-somos { 
+    height: 350px; 
+    padding: 0 0 20px 0;
+    margin: auto;
+    display: block;
+  }  
+  /* --- Fim Area Quem Somos --- */  
+
+  /* --- Inicio Centro de Ferias --- */
+  .img-centro-ferias { 
+    height: 325px; 
+    padding: 0 0 20px 0;
+    margin: auto;
+    display: block;
+  }  
+  /* --- Fim Centro de Ferias --- */ 
+
+  /* --- Inicio Destaque Unico --- */
+  .botao-destaque {  
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 40px;
+    padding: 10px 30px 10px 30px;   
+  }
+  /* --- Fim Destaque Unico --- */
+
+  /* --- Contactos Footer --- */
+  .espacamento-footer-top {margin-top: 30px;}
+
+  .separador-footer-top {
+    width: 47px !important; 
+    margin: 61px auto 22px !important;   
+  }
+
+  .titulo-contactos {
+    font-size: 20px !important;
+    margin-bottom: 36px !important;
+  }
+
+  .texto-contactos {
+    font-size: 17px !important;
+    margin-bottom: 35px;
+    padding: 0 34px;  
+    line-height: 22px;
+  }
+
+  .contactos-mail {margin-bottom: 60px !important;}
+
+  .img-contactos {
+    width: 42px !important;
+    height: 42px !important;
+    margin-bottom: 20px !important;
+  }
+  /* --- Fim Contactos Footer --- */
+
+  /* --- Mapa Footer --- */
+  .espacamento-mapa {margin: 11px 0 6px 0 !important;}
+  .img-mapa {max-height: 322px !important;}
+  /* --- Fim Mapa Footer --- */
+
+  /* --- Siga-nos Footer --- */
+  .img-facebook {
+    width: 42px !important;
+    height: 42px !important;
+    margin: 65px 0 18px 0 !important;
+  }
+
+  .titulo-facebook {    
+    font-size: 18px !important;
+    margin-bottom: 70px !important;  
+  }
+
+  .texto-copy {
+    font-size: 10px !important;
+    text-align: center !important;  
+    padding: 12px 55px 0 55px !important;
+    margin-bottom: 15px;
+  }
+  /* --- Fim Siga-nos Footer --- */
+
+  /* --- Inicio Pagina Contactos --- */ 
+  .espacamento-separador-main-contactos {margin: 29px 0 18px 0;}
+  .espacamento-contactos {padding: 24px 0 0 0;}
+  .texto-contacto-campo {font-size: 17px;}
+    
+  .contactos-input {    
+    height: 28px;
+    font-size: 12px;
+    padding-left: 12px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+
+  .contactos-area-texto {
+    height: 115px;
+    padding-top: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+
+  .contactos-campo-obrigatorio {font-size: 10px;}
+
+  .contactos-copia-email {
+    font-size: 10px;
+    line-height: 10px;
+    padding-bottom: 10px;
+  }
+
+  .img-recaptcha {
+    width: 150px;
+    height: 40px;
+  }
+  
+  .botao-contactos {
+    width: 150px;
+    height: 35px;    
+    font-size: 12px;
+  }
+  /* --- Fim Pagina Contactos --- */
+}
+
+/* ------ Media Queries 768>  ------ */
+@media screen and (max-width: 767px) { 
+
+  /* --- Titulo/texto Main --- */
+  .separador-main {width: 47px !important;}  
+  .espacamento-separador-main {margin: 30px 0 20px 0 !important;}
+  .titulo-main {
+    font-size: 20px !important;
+    line-height: 30px;
+  }
+  .texto-main {font-size: 13px !important;}
+  .texto-main p {margin-bottom: 30px;}
+  .espacamento-texto-main {padding: 20px 0 0 0 !important;}
+  .espacamento-separador-main-2 {padding: 60px 0 20px 0 !important;}
+  .botao-ver-mais {font-size: 10px;}
+  /* --- Fim Titulo/texto Main --- */
+
+  /* --- Area Cards Main --- */
+  #card-mobile {height: 385px !important;}
+  .img-card-home {height: 210px;}
+  .espacamento-cards-main {padding-bottom: 28px;}
+  .titulo-card {
+    font-size: 17px !important;
+    line-height: 25px;
+    padding: 15px 20px 5px 20px;
+  }
+  
+  .texto-card {
+    font-size: 13px !important;
+    line-height: normal;
+    padding: 0 20px 0px 20px;    
+  }
+  .botao-ver-mais-card {font-size: 9px;}   
+  /* --- Fim Area Cards Main --- */  
+
+  /* --- Inicio Area Quem Somos --- */ 
+  .espacamento-separador-main-quem {margin: 47px 0 15px 0;}
+  .espacamento-texto-main-quem-somos {padding: 25px 0 0 0;}
+  .quem-somos-espacamento {padding: 0;}
+  .img-quem-somos { 
+    height: 223px; 
+    padding-bottom: 20px;
+    margin: auto;
+    display: block;
+  }  
+  /* --- Fim Area Quem Somos --- */  
+
+  /* --- Inicio Area Socios --- */ 
+  .espacamento-texto-main-socios {padding: 25px 0 0 0;}
+  /* --- Fim Area Socios --- */ 
+
+  /* --- Inicio Area Cards Noticias --- */ 
+  .espacamento-separador-noticias {margin: 45px 0 17px 0;}
+  .img-card-noticias {height: 189px;}
+
+  .titulo-card-noticias {
+    font-size: 17px;
+    line-height: 22px;
+    padding: 15px 20px 5px 20px;
+  }
+
+  .texto-card-noticias {
+    font-size: 13px !important;
+    line-height: normal;
+    padding: 5px 20px 30px 20px;    
+  }
+
+  .botao-pagina {    
+    width: 26px;
+    height: 26px;  
+    font-size: 17px;
+  } 
+  /* --- Fim Area Cards Noticias --- */ 
+
+  /* --- Inicio Area Cards Destaques --- */ 
+  .espacamento-separador-destaques {margin: 30px 0 17px 0;}
+  .img-card-destaques {min-height: 208px;}
+
+  .titulo-card-destaques {
+    font-size: 17px;
+    line-height: 22px;
+    padding: 15px 20px 5px 20px;
+  }
+
+  .texto-card-destaques {
+    font-size: 13px !important;
+    line-height: normal;
+    padding: 5px 20px 45px 20px;    
+  }  
+  /* --- Fim Area Cards Destaques --- */ 
+
+  /* --- Inicio Empreendimentos --- */ 
+  .espacamento-separador-empreendimento {margin: 30px 0 18px 0;}
+
+  .titulo-empreendimento {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .espacamento-texto-empreendimento {padding: 25px 0 0 0;}
+  .img-empreendimento {height: 190px;}
+  /* --- Fim Empreendimentos --- */ 
+
+  /* --- Inicio Centro de Ferias --- */ 
+  .espacamento-separador-centro-ferias {margin: 28px 0 18px 0;}
+  .img-centro-ferias {height: 245px;}  
+  .espacamento-texto-main-centro-ferias {padding: 25px 0 0 0;}
+  .texto-centro-ferias {
+    font-size: 13px;
+    line-height: 21px;
+  }
+  .centro-ferias-espacamento {padding: 0;}
+  /* --- Fim Centro de Ferias --- */  
+}

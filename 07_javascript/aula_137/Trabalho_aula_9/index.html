@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Temperaturas</title>
+  <link rel="stylesheet" href="stylce.css">
+  <script src="main.js" defer></script>
+
+</head>
+<body>
+
+  <h1>Javascript</h1>
+  <br>
+  <h1>Calculadora de Temperaturas</h1>
+
+  <div class="box" id="entrada">  
+    <div class="topo">
+      <div id="screen"></div> 
+      <div class="temperatura">C</div> 
+    </div>  
+         
+    <br>
+    <div id="buttons">
+      <button onclick="premir('1')">1</button>
+      <button onclick="premir('2')">2</button>
+      <button onclick="premir('3')">3</button>
+      <br>
+      <button onclick="premir('4')">4</button>
+      <button onclick="premir('5')">5</button>
+      <button onclick="premir('6')">6</button>
+      <br>
+      <button onclick="premir('7')">7</button>
+      <button onclick="premir('8')">8</button>
+      <button onclick="premir('9')">9</button>
+      <br>
+      <button onclick="premir('0')">0</button>
+      <button onclick="clearScreen()">CLR</button>      
+      <button onclick="premir('-')">-</button>
+      <button onclick="premir('.')">.</button>
+    </div>
+  </div> 
+  
+  <div class="box" id="saida">
+    <h2>Saida</h2>
+    <h3 id="resultado"></h3>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+  background-color: gray;
+  color: rgb(208, 243, 13);
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {color: white;}
+
+.box {
+  margin: 30px auto;
+  width: 500px;
+  border: 3px solid orange;
+  border-radius: 20px;  
+  box-shadow: 2px 2px 5px black;
+}
+
+.topo {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  border-radius: 20px 20px 20px 20px;
+  margin: 20px;  
+  height: 80px;
+}
+
+.temperatura {
+  font-size: 60px;  
+  padding-right: 20px;
+}
+
+#screen {    
+  font-size: 60px;   
+  padding-right: 20px;
+}
+
+#buttons button{
+  width: 70px;
+  height: 40px;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+#buttons button:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
+#buttons {
+  border: 2px solid red;
+  margin: 0 20px 20px 20px;
+  border-radius: 20px;
+}
+
+#saida {font-size: 25px;}

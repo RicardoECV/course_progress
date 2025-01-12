@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+
+  background-color: gray;
+}
+
+table, th, td {
+  margin: auto;
+  border: 3px solid greenyellow;
+  border-collapse: collapse;
+  padding: 20px;
+  color: white;  
+}
+
+img {
+  width: 200px;
+}
+
+.card img {
+  height: 200px;
+}
+
+.carousel-inner img {
+  height: 500px;
+}
+
+pre {text-align: left;}

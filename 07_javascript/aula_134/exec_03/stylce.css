@@ -1,0 +1,44 @@
+body {
+  background-color: gray;
+  color: rgb(208, 243, 13);
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {color: white;}
+
+.box {
+  margin: 30px auto;
+  width: 70%;
+  border: 3px solid orange;
+  border-radius: 20px;
+  padding: 20px 40px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.botao-principal {
+  margin: auto;
+  width: 20%;  
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Exec Javascript */
+.botao-teste {
+  border: 1px solid red;
+  background-color: orange;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 15px;
+  margin: 5px;
+}
+
+.botao-novo-teste {
+  border: 2px solid blue;
+  background-color: aquamarine;
+}
+
+.desaparece {display: none;}

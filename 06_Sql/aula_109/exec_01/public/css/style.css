@@ -1,0 +1,25 @@
+body {
+  text-align: center;  
+  background-color: gray;
+}
+
+
+img {
+  width: 200px;
+}
+
+.card img {
+  height: 200px;
+}
+
+.carousel-inner img {
+  height: 500px;
+}
+
+pre {text-align: left;}
+
+ul {
+  text-align: left;
+  width: 300px;
+  margin: auto;
+}

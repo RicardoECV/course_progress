@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: gray;
+}
+
+header {color: rebeccapurple}
+
+nav {padding-bottom: 20px;}
+nav a {
+  text-decoration: none;
+  background-color: black;
+  color: white;  
+}
+
+nav a:hover {
+  color: red;
+}
+
+footer {
+  color: orange;
+  font-size: 20px;
+}
+
+.caixa p{
+  margin: 50px;
+  text-align: justify;
+}
+
+.produto {
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}

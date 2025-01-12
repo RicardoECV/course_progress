@@ -1,0 +1,14 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.input_1 {
+  background-color: gray;
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 20px;
+}

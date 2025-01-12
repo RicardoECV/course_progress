@@ -1,0 +1,20 @@
+body {
+  text-align: center;  
+  background-color: gray;
+}
+
+table, th, td {
+  margin: auto;
+  border: 3px solid greenyellow;
+  border-collapse: collapse;
+  padding: 20px;
+  color: white; 
+  width: 600px; 
+}
+
+.botao_delete:hover {background-color: red;}
+
+.lista li {
+  width: 200px;
+  margin: auto;
+}
